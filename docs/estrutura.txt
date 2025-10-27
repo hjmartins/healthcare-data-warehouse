@@ -1,0 +1,30 @@
+healthcare-data-warehouse/
+├─ data/                       # CSVs de exemplo e geradores de dados
+│  ├─ dim_diagnostico.CSV
+│  ├─ dim_hospital.csv
+│  ├─ dim_paciente.csv
+│  ├─ dim_tempo.csv
+│  ├─ fact_internacao.csv
+│  └─ generate_data.py  # codigo de criação de dados falsos
+├─ etl/
+│  ├─ etl_load.py # codigo para load o banco de dados com o schema e csvs criados
+│  └─ 
+│
+├─ sql/  #schemas de sql 
+│  ├─ create_schema.sql
+│  ├─ create_tables.sql
+│  ├─ merge_paciente.sql
+│  ├─ merge_hospital.sql
+│  ├─ load_dim_tempo.sql
+│  ├─ load_dim_diagnostico.sql
+│  └─ load_fact_internacao.sql
+├─ dashboards/   # em processo de implementação
+│  ├─ streamlit_app.py
+│  └─ powerbi_template.pbix (opcional)
+├─ docs/
+│  ├─ diagram.png
+│  └─ Estrutura.txt <- você está aqui
+├─ docker-compose.yml
+│  
+├─ primeira_run.ps1 # não rodar, esta desatualizada
+└─ README.md

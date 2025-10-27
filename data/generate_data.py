@@ -248,7 +248,7 @@ fato_data = []
 tempo_keys = df_dim_tempo['dim_tempo_key'].tolist()
 paciente_key = df_paciente['dim_paciente_key'].tolist()
 hospital_keys = df_hosp['dim_hospital_key'].tolist()
-diagnostico_keys = df_diagnostico['dim_diagnostico_key'].tolist
+diagnostico_keys = df_diagnostico['dim_diagnostico_key'].tolist()
 
 for _ in range(N_FATOS):
     adm_date = fake.date_time_between(start_date=PERIOD_START, end_date=PERIOD_END - timedelta(days=30))
@@ -274,3 +274,4 @@ for _ in range(N_FATOS):
 df_fato = pd.DataFrame(fato_data)
 df_fato.insert(0, 'fact_internacao_key', range(1, len(df_fato) + 1))
 df_fato.to_csv('data/fact_internacao.csv', index=False)
+print("Synthetic healthcare data generated and saved to CSV files.")
