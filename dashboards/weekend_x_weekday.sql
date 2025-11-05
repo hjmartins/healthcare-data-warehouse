@@ -1,3 +1,4 @@
+SET search_path TO dwh, public;
 SELECT
     t.is_weekend,
     COUNT(*) AS total_internacoes

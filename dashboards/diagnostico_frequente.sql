@@ -1,3 +1,4 @@
+SET search_path TO dwh, public;
 SELECT
     t.year,
     t.month,

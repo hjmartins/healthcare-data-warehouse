@@ -14,6 +14,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - ./sql:/sql 
+      - ./dashboards:/dashboards
 
 volumes:
   postgres_data:

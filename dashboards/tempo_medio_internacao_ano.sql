@@ -1,3 +1,4 @@
+SET search_path TO dwh, public;
 SELECT
     t.year,
     ROUND(AVG(f.dias_internado), 2) AS media_dias

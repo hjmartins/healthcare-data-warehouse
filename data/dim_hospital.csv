@@ -1,0 +1,41 @@
+dim_hospital_key,hospital_id,nome,regiao,tipo,capacidade,effective_from,effective_to,is_current
+1,H001,Davis Inc,Ohio,Privado,325,2018-01-01,2021-07-01,False
+1,H001,Hospital Miles-Clark,Leste,Public,385,2018-01-01,,True
+3,H002,Moore Ltd,North Dakota,Privado,447,2018-01-01,2021-07-01,False
+2,H002,Hospital Spence Inc,Oeste,Private,114,2018-01-01,,True
+5,H003,Robles-Andrade,South Carolina,Privado,314,2018-01-01,2021-07-01,False
+3,H003,Hospital Cook-White,Norte,Public,460,2018-01-01,,True
+7,H004,"Sullivan, Patterson and Becker",Colorado,Privado,271,2018-01-01,2021-07-01,False
+4,H004,Hospital Robinson Ltd,Norte,Public,282,2018-01-01,,True
+9,H005,"Taylor, Mccarthy and Silva",Mississippi,Público,228,2018-01-01,2021-07-01,False
+5,H005,"Hospital Fisher, Baker and Jenkins",Oeste,Private,205,2018-01-01,,True
+11,H006,Ferguson Ltd,Oklahoma,Privado,455,2018-01-01,2021-07-01,False
+6,H006,Hospital Esparza Inc,Norte,Public,317,2018-01-01,,True
+13,H007,"Munoz, Thomas and Blake",Texas,Privado,496,2018-01-01,2021-07-01,False
+7,H007,"Hospital Garcia, Lozano and Sanchez",Sul,Private,306,2018-01-01,,True
+15,H008,"Mendoza, Watson and Morton",New Jersey,Público,329,2018-01-01,2021-07-01,False
+8,H008,Hospital Wong-Mitchell,Leste,Public,341,2018-01-01,,True
+17,H009,"Gallagher, Cuevas and Pearson",Michigan,Privado,97,2018-01-01,2021-07-01,False
+9,H009,Hospital Jackson LLC,Leste,Public,154,2018-01-01,,True
+19,H010,Willis Group,Mississippi,Privado,185,2018-01-01,2021-07-01,False
+10,H010,Hospital Alvarado-Strong,Oeste,Public,306,2018-01-01,,True
+21,H011,"Williamson, Hall and Reyes",Florida,Público,150,2018-01-01,2021-07-01,False
+11,H011,"Hospital Frazier, Garcia and Zuniga",Sul,Public,149,2018-01-01,,True
+23,H012,"Avila, Hobbs and Flynn",New York,Privado,339,2018-01-01,2021-07-01,False
+12,H012,Hospital Stewart-Jacobs,Sul,Public,357,2018-01-01,,True
+25,H013,Floyd-Villanueva,Tennessee,Privado,92,2018-01-01,2021-07-01,False
+13,H013,Hospital Morgan-Castillo,Leste,Public,464,2018-01-01,,True
+27,H014,Garcia Ltd,Arkansas,Público,452,2018-01-01,2021-07-01,False
+14,H014,"Hospital Black, Ayala and Wood",Oeste,Private,424,2018-01-01,,True
+29,H015,Taylor Ltd,Hawaii,Privado,447,2018-01-01,2021-07-01,False
+15,H015,"Hospital Jennings, Garner and White",Norte,Private,415,2018-01-01,,True
+31,H016,"Gilmore, Romero and Valdez",Wyoming,Privado,224,2018-01-01,2021-07-01,False
+16,H016,Hospital Porter-Smith,Oeste,Public,480,2018-01-01,,True
+33,H017,Hill Ltd,North Carolina,Público,362,2018-01-01,2021-07-01,False
+17,H017,"Hospital Gonzales, Jones and Francis",Norte,Private,225,2018-01-01,,True
+35,H018,Foster-Williams,Nevada,Público,403,2018-01-01,2021-07-01,False
+18,H018,Hospital Terry-Baird,Norte,Private,491,2018-01-01,,True
+37,H019,Marshall-Rodriguez,Virginia,Privado,235,2018-01-01,2021-07-01,False
+19,H019,Hospital Diaz-Osborne,Oeste,Private,233,2018-01-01,,True
+39,H020,"Kelley, Nunez and Hart",Washington,Público,444,2018-01-01,2021-07-01,False
+20,H020,"Hospital Neal, Wade and Johnson",Oeste,Private,465,2018-01-01,,True

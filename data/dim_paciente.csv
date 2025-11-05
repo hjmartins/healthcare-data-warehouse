@@ -1,0 +1,2001 @@
+dim_paciente_key,paciente_id,nome,data_nascimento,sexo,comorbidades,effective_from,effective_to,is_current
+1,P00001,Christina Byrd,1952-01-22,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+2,P00001,Mark Smith,1952-01-22,M,Asma Grave,2020-09-28,,True
+3,P00002,Debra Mcconnell,2023-02-25,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+4,P00002,Megan Reed,2023-02-25,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+5,P00003,Carl Holmes,1941-03-15,F,Diverticulite,2018-01-01,2020-09-27,False
+6,P00003,Kaylee Ross,1941-03-15,F,Traumatismo Craniano,2020-09-28,,True
+7,P00004,Colin Bailey,2002-10-23,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+8,P00004,Jason Freeman,2002-10-23,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+9,P00005,Jordan Bennett,1988-09-14,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+10,P00005,Brandon Martinez,1988-09-14,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+11,P00006,Sean Henderson,1958-08-16,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+12,P00006,Tammy Hickman,1958-08-16,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+13,P00007,Michelle Perry,1994-04-06,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+14,P00007,Edwin Romero,1994-04-06,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+15,P00008,Monique Richardson,1986-01-19,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+16,P00008,Larry Martinez,1986-01-19,F,Trombose Venosa Profunda,2020-09-28,,True
+17,P00009,Frank Bryan,1995-04-20,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+18,P00009,Emily Mitchell,1995-04-20,F,Diverticulite,2020-09-28,,True
+19,P00010,Heather Ferguson,1978-05-05,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+20,P00010,Lisa Roberson,1978-05-05,M,Diverticulite,2020-09-28,,True
+21,P00011,Michael Grant,1963-02-16,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+22,P00011,Susan Martin,1963-02-16,F,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+23,P00012,Mr. Mark Ford,1997-11-28,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+24,P00012,Jessica Mcintyre,1997-11-28,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+25,P00013,Sharon Lucero,1945-08-13,F,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+26,P00013,Lisa Morris,1945-08-13,F,Trombose Venosa Profunda,2020-09-28,,True
+27,P00014,Kerry Hall,2011-11-19,F,Queimaduras Graves,2018-01-01,2020-09-27,False
+28,P00014,Michael Tyler,2011-11-19,F,Queimaduras Graves,2020-09-28,,True
+29,P00015,Denise Young,1995-04-08,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+30,P00015,Terry Young,1995-04-08,F,Meningite e Encefalite,2020-09-28,,True
+31,P00016,Vanessa Aguilar,1991-08-10,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+32,P00016,Isabella Benson,1991-08-10,F,Queimaduras Graves,2020-09-28,,True
+33,P00017,Hailey Matthews MD,1953-03-05,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+34,P00017,Elizabeth Moore,1953-03-05,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+35,P00018,David Velasquez,1996-08-19,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+36,P00018,Kevin Williams,1996-08-19,M,Pneumonia,2020-09-28,,True
+37,P00019,Patricia Carr,1976-11-20,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+38,P00019,Christopher Cook,1976-11-20,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+39,P00020,Brian Williams,1956-10-07,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+40,P00020,Christopher Murray,1956-10-07,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+41,P00021,Justin Williams,1958-03-27,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+42,P00021,Martha Perry,1958-03-27,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+43,P00022,Eric Hayes,1956-01-08,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+44,P00022,Jacob Ross,1956-01-08,M,Hemorragia Digestiva,2020-09-28,,True
+45,P00023,Emily Reynolds,1937-11-20,F,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+46,P00023,Suzanne Thomas,1937-11-20,F,Insuficiência Renal Aguda,2020-09-28,,True
+47,P00024,Michael Alexander,1965-12-18,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+48,P00024,Michael Park,1965-12-18,M,Traumatismo Craniano,2020-09-28,,True
+49,P00025,Christopher Jimenez,1961-09-04,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+50,P00025,Anna Fuller,1961-09-04,F,Queimaduras Graves,2020-09-28,,True
+51,P00026,Dr. Timothy Sullivan MD,1937-01-14,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+52,P00026,Rebecca Reynolds,1937-01-14,M,Osteomielite,2020-09-28,,True
+53,P00027,Darlene Phillips,1945-06-08,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+54,P00027,Christian Harris,1945-06-08,F,Meningite e Encefalite,2020-09-28,,True
+55,P00028,Michael Davis,1960-09-11,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+56,P00028,Vanessa Jones,1960-09-11,M,Cirrose Hepática e suas complicações,2020-09-28,,True
+57,P00029,Benjamin Stephens,1998-02-04,F,Asma Grave,2018-01-01,2020-09-27,False
+58,P00029,Jerry Johnson,1998-02-04,F,Gastroenterite com desidratação grave,2020-09-28,,True
+59,P00030,Jeremy Goodman,1970-11-23,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+60,P00030,Eric Horton,1970-11-23,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+61,P00031,Jacqueline Martinez DVM,2000-02-15,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+62,P00031,Michaela Adams,2000-02-15,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+63,P00032,Adam Reeves,2006-07-20,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+64,P00032,Jerry Hughes,2006-07-20,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+65,P00033,Matthew Cook,1959-02-05,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+66,P00033,Nicole Cabrera,1959-02-05,F,Asma Grave,2020-09-28,,True
+67,P00034,Robert Watson,2009-06-16,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+68,P00034,Willie Diaz,2009-06-16,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+69,P00035,Jessica Pearson,1988-08-24,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+70,P00035,Crystal Wells,1988-08-24,F,Pancreatite Aguda,2020-09-28,,True
+71,P00036,Victor Cooper,2016-03-07,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+72,P00036,Lisa Montes,2016-03-07,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+73,P00037,Gabrielle Haas,1935-04-30,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+74,P00037,Alexander Anderson,1935-04-30,F,Sepse/Infecção Generalizada,2020-09-28,,True
+75,P00038,Clarence Carrillo,1971-09-07,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+76,P00038,Dana Martinez,1971-09-07,M,Diverticulite,2020-09-28,,True
+77,P00039,James Wells,2022-07-06,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+78,P00039,Jason Beltran,2022-07-06,F,Embolia Pulmonar,2020-09-28,,True
+79,P00040,Chad Hall,2024-09-21,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+80,P00040,Zoe Turner,2024-09-21,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+81,P00041,Carol Butler,1947-05-19,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+82,P00041,Joyce Paul,1947-05-19,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+83,P00042,David Marshall,2019-01-31,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+84,P00042,Brian Snyder,2019-01-31,F,Apendicite Aguda,2020-09-28,,True
+85,P00043,Susan Brooks,2019-05-12,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+86,P00043,Theresa Walker,2019-05-12,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+87,P00044,Joshua Castillo,1943-10-17,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+88,P00044,Donna Randolph,1943-10-17,M,Sepse/Infecção Generalizada,2020-09-28,,True
+89,P00045,Renee Banks,1978-12-15,M,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+90,P00045,Cindy Lee,1978-12-15,M,Insuficiência Renal Aguda,2020-09-28,,True
+91,P00046,Lori Evans,2005-02-22,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+92,P00046,Donna Ryan,2005-02-22,M,Diverticulite,2020-09-28,,True
+93,P00047,David Jones,1988-01-18,M,Pneumonia,2018-01-01,2020-09-27,False
+94,P00047,David Diaz,1988-01-18,M,Gastroenterite com desidratação grave,2020-09-28,,True
+95,P00048,Anthony Potter,2018-10-14,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+96,P00048,Peter Cunningham,2018-10-14,F,Pneumonia,2020-09-28,,True
+97,P00049,Tina Ayala,2023-01-11,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+98,P00049,Brian Reid,2023-01-11,M,Insuficiência Renal Aguda,2020-09-28,,True
+99,P00050,Danielle Chapman,1976-01-29,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+100,P00050,Kevin Campbell,1976-01-29,F,Pancreatite Aguda,2020-09-28,,True
+101,P00051,Pamela Scott,2000-05-01,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+102,P00051,Jackie Silva,2000-05-01,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+103,P00052,Joseph Brewer,1956-05-08,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+104,P00052,Jeffrey Williams,1956-05-08,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+105,P00053,Johnny Clark,1983-11-25,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+106,P00053,Daniel Perez,1983-11-25,F,Traumatismo Craniano,2020-09-28,,True
+107,P00054,David Taylor,2018-06-05,M,Osteomielite,2018-01-01,2020-09-27,False
+108,P00054,Janet Goodman,2018-06-05,M,Apendicite Aguda,2020-09-28,,True
+109,P00055,Wesley Watkins,1935-07-26,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+110,P00055,Stephanie Blanchard,1935-07-26,M,Insuficiência Renal Aguda,2020-09-28,,True
+111,P00056,Scott Peterson,1956-08-07,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+112,P00056,James Hart,1956-08-07,F,Traumatismo Craniano,2020-09-28,,True
+113,P00057,Emily Hampton,1943-08-07,F,Diverticulite,2018-01-01,2020-09-27,False
+114,P00057,Melissa Franco,1943-08-07,F,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+115,P00058,Darin Nichols,1992-06-11,M,Diverticulite,2018-01-01,2020-09-27,False
+116,P00058,Melanie Lopez,1992-06-11,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+117,P00059,Paula Bird,1994-05-09,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+118,P00059,Alicia Smith,1994-05-09,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+119,P00060,Christopher Crane,1942-07-31,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+120,P00060,Matthew Gilmore,1942-07-31,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+121,P00061,David Johnson,1967-10-05,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+122,P00061,Daniel Rivera,1967-10-05,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+123,P00062,Nancy Jimenez,1953-08-02,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+124,P00062,William Howell,1953-08-02,F,Hemorragia Digestiva,2020-09-28,,True
+125,P00063,Joel Keller,1950-06-19,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+126,P00063,Sergio Liu,1950-06-19,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+127,P00064,Lauren Hall,1954-03-28,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+128,P00064,Danielle Sanchez,1954-03-28,M,Traumatismo Craniano,2020-09-28,,True
+129,P00065,Deborah Hanson,1946-05-28,F,Pancreatite Aguda,2018-01-01,2020-09-27,False
+130,P00065,David Maldonado,1946-05-28,F,Apendicite Aguda,2020-09-28,,True
+131,P00066,Tracy Wilson,1985-07-15,M,Diverticulite,2018-01-01,2020-09-27,False
+132,P00066,Emily Lara,1985-07-15,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+133,P00067,Michael Meyer,1972-11-16,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+134,P00067,Jennifer Richardson,1972-11-16,M,Traumatismo Craniano,2020-09-28,,True
+135,P00068,Shannon Clark,1980-04-30,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+136,P00068,Andrew Patton,1980-04-30,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+137,P00069,Ashlee Wells,1942-04-29,F,Osteomielite,2018-01-01,2020-09-27,False
+138,P00069,Ryan Moreno,1942-04-29,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+139,P00070,Molly Harris,1936-03-31,M,Diverticulite,2018-01-01,2020-09-27,False
+140,P00070,Tanner Anderson,1936-03-31,M,Asma Grave,2020-09-28,,True
+141,P00071,Seth Davidson,2011-12-30,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+142,P00071,David Randolph,2011-12-30,F,Doenças Autoimunes em crise,2020-09-28,,True
+143,P00072,Brandon Rosales,1995-08-22,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+144,P00072,Jason Daniel,1995-08-22,F,Hemorragia Digestiva,2020-09-28,,True
+145,P00073,Cameron Caldwell,1997-11-07,M,Asma Grave,2018-01-01,2020-09-27,False
+146,P00073,Virginia Gentry,1997-11-07,M,Embolia Pulmonar,2020-09-28,,True
+147,P00074,Kim Hoffman,2015-10-11,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+148,P00074,Jonathan Day,2015-10-11,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+149,P00075,Caroline Strickland,2013-02-08,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+150,P00075,Jordan Jones,2013-02-08,M,Insuficiência Renal Aguda,2020-09-28,,True
+151,P00076,Danielle Foster,1998-12-13,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+152,P00076,Emily Herrera,1998-12-13,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+153,P00077,Diana Rich,2007-06-07,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+154,P00077,Morgan Swanson,2007-06-07,M,Diverticulite,2020-09-28,,True
+155,P00078,Cameron Castillo,1949-06-15,M,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+156,P00078,Walter Mercer,1949-06-15,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+157,P00079,Denise Pham,1951-05-05,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+158,P00079,Logan Roberson,1951-05-05,M,Meningite e Encefalite,2020-09-28,,True
+159,P00080,Ethan Parks,1973-02-19,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+160,P00080,David Spence,1973-02-19,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+161,P00081,Stacy Long,2011-12-22,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+162,P00081,Robert Johnson,2011-12-22,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+163,P00082,Michael Lewis,1965-03-22,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+164,P00082,Daniel Shelton,1965-03-22,M,Insuficiência Renal Aguda,2020-09-28,,True
+165,P00083,Elizabeth Edwards,2004-07-14,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+166,P00083,Jamie Short,2004-07-14,M,Gastroenterite com desidratação grave,2020-09-28,,True
+167,P00084,Robin Goodwin,1991-09-17,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+168,P00084,Jonathan Smith,1991-09-17,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+169,P00085,Christopher Phillips,1965-01-09,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+170,P00085,Troy Brown,1965-01-09,M,Pneumonia,2020-09-28,,True
+171,P00086,Stacey Perez,1966-12-13,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+172,P00086,Helen Wilkinson,1966-12-13,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+173,P00087,Jessica Bridges,1954-03-15,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+174,P00087,Stacey Brown,1954-03-15,F,Embolia Pulmonar,2020-09-28,,True
+175,P00088,Alison Arnold,1997-05-21,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+176,P00088,Christopher Glover,1997-05-21,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+177,P00089,Sara Smith,2009-05-20,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+178,P00089,Dana Shah,2009-05-20,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+179,P00090,Catherine Fisher,2006-07-01,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+180,P00090,Mr. Michael Zhang,2006-07-01,M,Insuficiência Renal Aguda,2020-09-28,,True
+181,P00091,Mark Burke,1969-11-25,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+182,P00091,Jonathan Smith,1969-11-25,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+183,P00092,Steven Hartman,1959-07-22,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+184,P00092,Mr. Charles Bishop DDS,1959-07-22,M,Doenças Autoimunes em crise,2020-09-28,,True
+185,P00093,Douglas Thomas,2007-12-05,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+186,P00093,Darius Richards,2007-12-05,F,Gastroenterite com desidratação grave,2020-09-28,,True
+187,P00094,Stacy Watson,1979-02-04,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+188,P00094,Christina Porter,1979-02-04,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+189,P00095,Phillip Campos,2024-09-13,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+190,P00095,Linda Mullins,2024-09-13,M,Gastroenterite com desidratação grave,2020-09-28,,True
+191,P00096,Daniel James,1999-11-11,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+192,P00096,Lindsey Reed,1999-11-11,M,Pancreatite Aguda,2020-09-28,,True
+193,P00097,Andrew Fox,2023-10-19,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+194,P00097,Sarah Rowe,2023-10-19,F,Meningite e Encefalite,2020-09-28,,True
+195,P00098,Jason Webster,1962-03-19,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+196,P00098,Chelsea Garcia,1962-03-19,M,Apendicite Aguda,2020-09-28,,True
+197,P00099,Jessica Miller,1977-04-13,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+198,P00099,James Maddox,1977-04-13,M,Pancreatite Aguda,2020-09-28,,True
+199,P00100,Hannah Collins,2023-04-10,M,Diverticulite,2018-01-01,2020-09-27,False
+200,P00100,Ralph Snyder,2023-04-10,M,Osteomielite,2020-09-28,,True
+201,P00101,Paula Dunlap,1955-07-31,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+202,P00101,Megan Cox,1955-07-31,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+203,P00102,Sandra Meadows,1942-02-20,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+204,P00102,Lisa Ho MD,1942-02-20,F,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+205,P00103,Leah Adams,1977-01-06,M,Diverticulite,2018-01-01,2020-09-27,False
+206,P00103,Joshua Meyer,1977-01-06,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+207,P00104,Dustin Price,2009-07-21,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+208,P00104,Kimberly Howard,2009-07-21,M,Sepse/Infecção Generalizada,2020-09-28,,True
+209,P00105,Susan Weaver,1946-06-04,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+210,P00105,Vincent Cowan,1946-06-04,F,Arritmias Cardíacas,2020-09-28,,True
+211,P00106,Julia Williams,2003-12-20,F,Pancreatite Aguda,2018-01-01,2020-09-27,False
+212,P00106,Stephen Payne,2003-12-20,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+213,P00107,Kristin Kline,1971-11-23,M,Diverticulite,2018-01-01,2020-09-27,False
+214,P00107,Kenneth Daugherty,1971-11-23,M,Pneumonia,2020-09-28,,True
+215,P00108,Thomas Perry,1968-04-14,F,Osteomielite,2018-01-01,2020-09-27,False
+216,P00108,Dr. Dustin Moran Jr.,1968-04-14,F,Pneumonia,2020-09-28,,True
+217,P00109,Holly Kelly,1953-02-11,M,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+218,P00109,Joshua Diaz,1953-02-11,M,Sepse/Infecção Generalizada,2020-09-28,,True
+219,P00110,Amber Bowman,2016-04-04,F,Asma Grave,2018-01-01,2020-09-27,False
+220,P00110,Lauren Bullock,2016-04-04,F,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+221,P00111,Jose Rogers,1979-03-20,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+222,P00111,Mary Kennedy,1979-03-20,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+223,P00112,Kristina Duncan,2008-05-12,M,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+224,P00112,Erica Snyder,2008-05-12,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+225,P00113,Nicolas Hale,2018-05-06,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+226,P00113,Katherine Brown,2018-05-06,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+227,P00114,Stephanie Spencer,2018-09-01,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+228,P00114,Doris Rangel,2018-09-01,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+229,P00115,Dustin Martinez,2002-01-02,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+230,P00115,Heather Woodward,2002-01-02,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+231,P00116,Barry Bauer,2020-04-12,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+232,P00116,Heather Kim,2020-04-12,F,Embolia Pulmonar,2020-09-28,,True
+233,P00117,Michael Krueger,2023-10-19,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+234,P00117,Thomas Allen,2023-10-19,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+235,P00118,Cassie Brewer,1963-11-30,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+236,P00118,Trevor Zhang,1963-11-30,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+237,P00119,Andrew Chandler,1950-12-31,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+238,P00119,Karen James,1950-12-31,F,Embolia Pulmonar,2020-09-28,,True
+239,P00120,Charles House,1959-11-17,F,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+240,P00120,Becky Nelson,1959-11-17,F,Insuficiência Renal Aguda,2020-09-28,,True
+241,P00121,Wendy Jones,1943-08-24,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+242,P00121,Lisa Bell,1943-08-24,M,Trombose Venosa Profunda,2020-09-28,,True
+243,P00122,Jennifer Brown,1994-08-01,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+244,P00122,Mark Smith,1994-08-01,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+245,P00123,Stephanie Clark,1987-10-21,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+246,P00123,Robin Andrade,1987-10-21,F,Diverticulite,2020-09-28,,True
+247,P00124,John Ryan,2016-08-08,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+248,P00124,Eric Davis,2016-08-08,F,Asma Grave,2020-09-28,,True
+249,P00125,Dr. Brian Lowery,1992-02-04,M,Diverticulite,2018-01-01,2020-09-27,False
+250,P00125,Dale Murphy,1992-02-04,M,Pneumonia,2020-09-28,,True
+251,P00126,Martin Molina,1952-12-19,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+252,P00126,Jane Miller,1952-12-19,F,Insuficiência Renal Aguda,2020-09-28,,True
+253,P00127,Jacob Le,2005-06-17,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+254,P00127,Tara Spencer,2005-06-17,M,Gastroenterite com desidratação grave,2020-09-28,,True
+255,P00128,Jared Griffith,1938-12-24,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+256,P00128,Kelly Parker,1938-12-24,M,Hemorragia Digestiva,2020-09-28,,True
+257,P00129,Katrina Wu,1985-05-23,M,Asma Grave,2018-01-01,2020-09-27,False
+258,P00129,Gabriella Bennett,1985-05-23,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+259,P00130,Dale Jones,1972-05-23,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+260,P00130,Juan Andrews,1972-05-23,F,Asma Grave,2020-09-28,,True
+261,P00131,Karen Lopez,1992-12-11,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+262,P00131,Amy Chavez,1992-12-11,F,Pancreatite Aguda,2020-09-28,,True
+263,P00132,Jose Nguyen,1976-09-13,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+264,P00132,Madison Taylor,1976-09-13,M,Pneumonia,2020-09-28,,True
+265,P00133,Brittany Bradley,1948-12-27,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+266,P00133,Stephen Black,1948-12-27,M,Queimaduras Graves,2020-09-28,,True
+267,P00134,Jamie Holden,1960-12-09,F,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+268,P00134,Daniel Miller,1960-12-09,F,Queimaduras Graves,2020-09-28,,True
+269,P00135,Richard Nelson,1970-02-28,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+270,P00135,Yesenia Williams,1970-02-28,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+271,P00136,John Lindsey,1951-07-04,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+272,P00136,Crystal Gray,1951-07-04,M,Pancreatite Aguda,2020-09-28,,True
+273,P00137,Susan Flores,2023-03-11,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+274,P00137,Anthony Middleton,2023-03-11,F,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+275,P00138,Grant Knapp,2009-05-01,F,Pneumonia,2018-01-01,2020-09-27,False
+276,P00138,Jake Lane,2009-05-01,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+277,P00139,Debra Jones,1992-02-14,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+278,P00139,Elizabeth Harris,1992-02-14,M,Pancreatite Aguda,2020-09-28,,True
+279,P00140,Gerald Bennett,1969-04-10,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+280,P00140,Carolyn Morgan,1969-04-10,M,Sepse/Infecção Generalizada,2020-09-28,,True
+281,P00141,Mrs. Kelsey Velasquez,1960-09-04,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+282,P00141,Sarah Black,1960-09-04,F,Gastroenterite com desidratação grave,2020-09-28,,True
+283,P00142,Jacob Andrade,1983-06-07,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+284,P00142,Amy Strickland,1983-06-07,M,Embolia Pulmonar,2020-09-28,,True
+285,P00143,Carrie Cain,1985-09-30,M,Asma Grave,2018-01-01,2020-09-27,False
+286,P00143,Marvin Jones,1985-09-30,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+287,P00144,Mike Martin,1951-11-10,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+288,P00144,Nicole Nichols,1951-11-10,M,Insuficiência Renal Aguda,2020-09-28,,True
+289,P00145,Lance Black,2003-07-11,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+290,P00145,Michael Long,2003-07-11,M,Queimaduras Graves,2020-09-28,,True
+291,P00146,Craig Lopez,2015-05-15,M,Diverticulite,2018-01-01,2020-09-27,False
+292,P00146,Benjamin Walsh,2015-05-15,M,Queimaduras Graves,2020-09-28,,True
+293,P00147,Anna Elliott,1967-08-15,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+294,P00147,Jason Rogers,1967-08-15,F,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+295,P00148,Alan Gilmore,1939-12-03,F,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+296,P00148,Kristine Gillespie,1939-12-03,F,Trombose Venosa Profunda,2020-09-28,,True
+297,P00149,Stephen Vaughn,2000-06-03,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+298,P00149,Erin Reyes,2000-06-03,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+299,P00150,David Green,1937-04-15,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+300,P00150,Cameron Ortiz,1937-04-15,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+301,P00151,Tracy Wallace,1937-08-25,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+302,P00151,Matthew Walters,1937-08-25,F,Pneumonia,2020-09-28,,True
+303,P00152,Peter Lawrence,1957-04-01,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+304,P00152,Michelle Li,1957-04-01,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+305,P00153,Heidi Rogers,1999-06-02,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+306,P00153,Elizabeth Rose,1999-06-02,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+307,P00154,Kelly Oneill,1978-12-11,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+308,P00154,Nicole Goodwin,1978-12-11,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+309,P00155,Alyssa Lucero,1956-06-12,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+310,P00155,Samantha Cervantes,1956-06-12,F,Osteomielite,2020-09-28,,True
+311,P00156,Michelle Cuevas,2018-07-21,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+312,P00156,Mrs. Patricia Garcia,2018-07-21,F,Diverticulite,2020-09-28,,True
+313,P00157,Caitlin Herrera,2018-10-15,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+314,P00157,Abigail Green,2018-10-15,F,Asma Grave,2020-09-28,,True
+315,P00158,Tracey Thomas,1943-08-01,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+316,P00158,Anthony Williams,1943-08-01,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+317,P00159,Brandon Hanson,2017-11-01,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+318,P00159,Carla Taylor,2017-11-01,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+319,P00160,Karen Neal PhD,1962-07-08,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+320,P00160,Kara Nguyen,1962-07-08,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+321,P00161,Jeremy Lewis,2020-05-30,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+322,P00161,David Jones,2020-05-30,M,Meningite e Encefalite,2020-09-28,,True
+323,P00162,Jessica Kaufman,1974-07-01,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+324,P00162,Maurice Garcia,1974-07-01,F,Traumatismo Craniano,2020-09-28,,True
+325,P00163,Denise Dominguez,2003-03-12,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+326,P00163,Courtney Miller,2003-03-12,F,Cirrose Hepática e suas complicações,2020-09-28,,True
+327,P00164,Teresa Thomas,2000-07-21,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+328,P00164,James Burns,2000-07-21,F,Hemorragia Digestiva,2020-09-28,,True
+329,P00165,Theresa Hooper,2022-06-16,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+330,P00165,Benjamin Atkinson,2022-06-16,M,Traumatismo Craniano,2020-09-28,,True
+331,P00166,Benjamin Harris,1974-09-02,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+332,P00166,Katelyn Carpenter,1974-09-02,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+333,P00167,Mrs. Patricia Ball,2002-01-24,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+334,P00167,Benjamin Long,2002-01-24,M,Queimaduras Graves,2020-09-28,,True
+335,P00168,Michael May,1974-06-20,M,Traumatismo Craniano,2018-01-01,2020-09-27,False
+336,P00168,Jon Snow,1974-06-20,M,Arritmias Cardíacas,2020-09-28,,True
+337,P00169,Kayla Freeman,1997-04-02,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+338,P00169,Ashley Bennett DVM,1997-04-02,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+339,P00170,Alexander Vaughn,1970-05-06,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+340,P00170,Dale Anthony,1970-05-06,M,Embolia Pulmonar,2020-09-28,,True
+341,P00171,Kathy Mckinney,1954-09-25,F,Pneumonia,2018-01-01,2020-09-27,False
+342,P00171,Christina Ford,1954-09-25,F,Apendicite Aguda,2020-09-28,,True
+343,P00172,Seth Meyers,1946-07-13,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+344,P00172,Jessica Thompson,1946-07-13,F,Arritmias Cardíacas,2020-09-28,,True
+345,P00173,Nathan Mclaughlin,1945-02-08,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+346,P00173,Nicole Adams,1945-02-08,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+347,P00174,Benjamin Crawford,1950-10-06,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+348,P00174,Ashley Caldwell,1950-10-06,F,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+349,P00175,Jennifer Salazar,1980-05-27,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+350,P00175,Christina Miller MD,1980-05-27,F,Asma Grave,2020-09-28,,True
+351,P00176,Diane Taylor,1967-03-06,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+352,P00176,Jenny Holt,1967-03-06,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+353,P00177,Sheryl Graham,1992-07-29,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+354,P00177,Kristopher Willis,1992-07-29,M,Embolia Pulmonar,2020-09-28,,True
+355,P00178,Peter Hughes,2001-12-10,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+356,P00178,Gene Myers,2001-12-10,F,Gastroenterite com desidratação grave,2020-09-28,,True
+357,P00179,Leslie Murillo,1985-06-25,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+358,P00179,Tristan Moon,1985-06-25,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+359,P00180,James Williams,1968-04-17,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+360,P00180,Carol Peterson,1968-04-17,M,Queimaduras Graves,2020-09-28,,True
+361,P00181,Mr. Donald Valenzuela,1965-10-24,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+362,P00181,Russell Kennedy,1965-10-24,F,Traumatismo Craniano,2020-09-28,,True
+363,P00182,Rachel Adams,2014-05-22,M,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+364,P00182,Barbara Berry,2014-05-22,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+365,P00183,Cynthia Riley,1965-08-18,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+366,P00183,David Ball,1965-08-18,F,Traumatismo Craniano,2020-09-28,,True
+367,P00184,Melissa Smith,1944-12-05,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+368,P00184,Kimberly Ball,1944-12-05,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+369,P00185,Mary Scott,1979-05-08,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+370,P00185,Michelle Gomez,1979-05-08,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+371,P00186,Jennifer Mccoy,1978-11-02,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+372,P00186,Jonathan Lane,1978-11-02,F,Doenças Autoimunes em crise,2020-09-28,,True
+373,P00187,Melissa Thomas,1972-08-01,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+374,P00187,Jeffery Miles,1972-08-01,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+375,P00188,Rebecca Martin,2007-01-08,F,Asma Grave,2018-01-01,2020-09-27,False
+376,P00188,Ryan Bowman,2007-01-08,F,Insuficiência Renal Aguda,2020-09-28,,True
+377,P00189,Natasha Lane,1999-05-20,M,Osteomielite,2018-01-01,2020-09-27,False
+378,P00189,Steven Oneill,1999-05-20,M,Meningite e Encefalite,2020-09-28,,True
+379,P00190,Kevin Chavez,2021-01-05,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+380,P00190,Jeremy Barrett,2021-01-05,M,Traumatismo Craniano,2020-09-28,,True
+381,P00191,Meagan Bright,1952-09-12,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+382,P00191,Jennifer Deleon,1952-09-12,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+383,P00192,Melanie Thomas DVM,1991-08-15,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+384,P00192,Timothy Rangel,1991-08-15,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+385,P00193,Troy Brown,1936-02-15,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+386,P00193,David Smith,1936-02-15,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+387,P00194,Margaret Stanley,1943-06-02,F,Osteomielite,2018-01-01,2020-09-27,False
+388,P00194,Christopher Walter,1943-06-02,F,Embolia Pulmonar,2020-09-28,,True
+389,P00195,Tara Cox,1971-06-05,M,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+390,P00195,Joshua Sparks,1971-06-05,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+391,P00196,Jacqueline Smith,2023-10-29,M,Traumatismo Craniano,2018-01-01,2020-09-27,False
+392,P00196,Daniel Frederick,2023-10-29,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+393,P00197,Ryan Kelly,1974-04-14,M,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+394,P00197,Rebecca Mata,1974-04-14,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+395,P00198,Lisa Reyes,2016-05-02,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+396,P00198,Samantha Johnson,2016-05-02,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+397,P00199,Teresa Robbins,2011-12-25,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+398,P00199,Bruce Bates,2011-12-25,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+399,P00200,Theodore Le,1936-02-19,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+400,P00200,Anna Campbell,1936-02-19,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+401,P00201,Catherine Vargas,1972-12-19,F,Osteomielite,2018-01-01,2020-09-27,False
+402,P00201,Marcia Stanley,1972-12-19,F,Hemorragia Digestiva,2020-09-28,,True
+403,P00202,William Smith,2017-04-04,F,Diverticulite,2018-01-01,2020-09-27,False
+404,P00202,Anna Mann,2017-04-04,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+405,P00203,Brandon Avery,1962-09-18,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+406,P00203,Elizabeth Cook,1962-09-18,M,Gastroenterite com desidratação grave,2020-09-28,,True
+407,P00204,Angel Taylor,1960-12-25,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+408,P00204,Nathan Moore,1960-12-25,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+409,P00205,Michele Harris,2004-11-03,F,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+410,P00205,Gary Wright,2004-11-03,F,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+411,P00206,Teresa Banks,1945-03-09,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+412,P00206,Daniel Mendoza,1945-03-09,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+413,P00207,Wendy Sherman,1950-03-11,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+414,P00207,Christopher Walker,1950-03-11,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+415,P00208,Daniel Jennings,1995-11-08,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+416,P00208,Michael Waters,1995-11-08,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+417,P00209,Robert King,1987-02-12,F,Osteomielite,2018-01-01,2020-09-27,False
+418,P00209,Sarah Robertson,1987-02-12,F,Arritmias Cardíacas,2020-09-28,,True
+419,P00210,Jennifer White MD,1935-11-03,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+420,P00210,Barbara Hernandez,1935-11-03,F,Insuficiência Renal Aguda,2020-09-28,,True
+421,P00211,Elizabeth Jones,1990-08-24,M,Asma Grave,2018-01-01,2020-09-27,False
+422,P00211,Jordan Lewis,1990-08-24,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+423,P00212,Robert Anderson,1973-12-29,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+424,P00212,Rebecca Santiago,1973-12-29,F,Trombose Venosa Profunda,2020-09-28,,True
+425,P00213,Nancy Jordan,1973-08-08,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+426,P00213,Jeremy Le,1973-08-08,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+427,P00214,Wayne Dillon,2008-11-16,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+428,P00214,Alicia Brown,2008-11-16,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+429,P00215,Jared Hoffman,1964-09-09,M,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+430,P00215,Andrea Wagner,1964-09-09,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+431,P00216,Michelle Anderson,1955-02-27,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+432,P00216,Lisa Ortiz,1955-02-27,F,Pancreatite Aguda,2020-09-28,,True
+433,P00217,Zachary Young,1952-12-18,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+434,P00217,Elizabeth Armstrong,1952-12-18,M,Sepse/Infecção Generalizada,2020-09-28,,True
+435,P00218,Brendan Lewis,1953-07-23,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+436,P00218,Anthony Sims,1953-07-23,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+437,P00219,Jennifer Gilbert,1957-05-29,M,Traumatismo Craniano,2018-01-01,2020-09-27,False
+438,P00219,Joshua Higgins,1957-05-29,M,Pneumonia,2020-09-28,,True
+439,P00220,Bill Travis,1943-03-03,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+440,P00220,Kathleen Moore,1943-03-03,F,Gastroenterite com desidratação grave,2020-09-28,,True
+441,P00221,Joshua Lee,1959-10-11,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+442,P00221,Terri Sullivan,1959-10-11,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+443,P00222,Jade Wheeler,1981-09-30,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+444,P00222,Joseph Gordon,1981-09-30,M,Sepse/Infecção Generalizada,2020-09-28,,True
+445,P00223,Jamie Roman,2008-12-21,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+446,P00223,Glenn Pittman,2008-12-21,M,Insuficiência Renal Aguda,2020-09-28,,True
+447,P00224,Christine Houston,1942-09-25,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+448,P00224,Frederick Delgado,1942-09-25,F,Gastroenterite com desidratação grave,2020-09-28,,True
+449,P00225,Andrew Hudson,2000-09-15,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+450,P00225,Sandy Rodriguez,2000-09-15,F,Diverticulite,2020-09-28,,True
+451,P00226,Holly Chaney,1986-09-07,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+452,P00226,Bill Cook,1986-09-07,M,Traumatismo Craniano,2020-09-28,,True
+453,P00227,Daniel Burgess,1981-12-28,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+454,P00227,Sarah Gonzales,1981-12-28,F,Sepse/Infecção Generalizada,2020-09-28,,True
+455,P00228,Kathleen Brown,1997-04-01,F,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+456,P00228,Brian Carroll,1997-04-01,F,Meningite e Encefalite,2020-09-28,,True
+457,P00229,Sara Gomez,1956-01-25,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+458,P00229,Taylor Rhodes,1956-01-25,M,Asma Grave,2020-09-28,,True
+459,P00230,Bryan Wolf,1990-10-28,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+460,P00230,Jennifer Lopez,1990-10-28,M,Hemorragia Digestiva,2020-09-28,,True
+461,P00231,Jose Leonard,1999-03-08,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+462,P00231,Tyler Oneill,1999-03-08,M,Trombose Venosa Profunda,2020-09-28,,True
+463,P00232,Kyle Fischer,2001-05-24,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+464,P00232,James Black,2001-05-24,F,Osteomielite,2020-09-28,,True
+465,P00233,Antonio Moyer,2021-07-05,F,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+466,P00233,Anthony Wise,2021-07-05,F,Meningite e Encefalite,2020-09-28,,True
+467,P00234,Scott Adams,1999-10-17,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+468,P00234,Kim Smith,1999-10-17,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+469,P00235,Nicole Jackson,1966-10-07,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+470,P00235,Kristina Christian,1966-10-07,M,Pancreatite Aguda,2020-09-28,,True
+471,P00236,Roger Medina,1939-03-22,F,Diverticulite,2018-01-01,2020-09-27,False
+472,P00236,Anita Joseph,1939-03-22,F,Trombose Venosa Profunda,2020-09-28,,True
+473,P00237,Natalie Chavez,2010-03-12,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+474,P00237,Kimberly Lynch,2010-03-12,F,Apendicite Aguda,2020-09-28,,True
+475,P00238,Mark Mckee,1991-04-25,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+476,P00238,Mark Klein,1991-04-25,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+477,P00239,Michael Johnson,2002-03-17,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+478,P00239,Charles Spears,2002-03-17,M,Pneumonia,2020-09-28,,True
+479,P00240,Calvin Griffin,1992-05-29,F,Diverticulite,2018-01-01,2020-09-27,False
+480,P00240,Denise Kim,1992-05-29,F,Traumatismo Craniano,2020-09-28,,True
+481,P00241,Johnny Lowe,1976-03-13,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+482,P00241,Melanie Higgins,1976-03-13,F,Trombose Venosa Profunda,2020-09-28,,True
+483,P00242,Ashley Terrell,1957-10-27,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+484,P00242,Brandon Morales,1957-10-27,M,Pancreatite Aguda,2020-09-28,,True
+485,P00243,Anne Ramos,1964-03-03,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+486,P00243,Timothy Alexander,1964-03-03,F,Pancreatite Aguda,2020-09-28,,True
+487,P00244,Jonathan Moore,1962-04-20,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+488,P00244,James Hampton,1962-04-20,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+489,P00245,Shirley Stokes,2010-08-23,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+490,P00245,Nathan Estes,2010-08-23,F,Insuficiência Renal Aguda,2020-09-28,,True
+491,P00246,Mark Carter,1939-11-17,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+492,P00246,Courtney Parker,1939-11-17,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+493,P00247,Susan Phillips,1975-07-19,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+494,P00247,Candace Blackburn,1975-07-19,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+495,P00248,Sherry Perez,2010-04-30,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+496,P00248,Jason Marshall,2010-04-30,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+497,P00249,Andrea Watts,1977-01-28,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+498,P00249,Danielle Hendricks,1977-01-28,M,Pancreatite Aguda,2020-09-28,,True
+499,P00250,Alicia Wilson,1987-07-13,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+500,P00250,Miguel Bradford,1987-07-13,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+501,P00251,Lisa Zamora DVM,1986-09-27,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+502,P00251,Derrick Smith MD,1986-09-27,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+503,P00252,Matthew Sullivan,1999-04-28,F,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+504,P00252,Jeffrey Koch,1999-04-28,F,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+505,P00253,Diane Moore,1947-02-11,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+506,P00253,Nathan Nguyen,1947-02-11,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+507,P00254,Jenna Graves,1975-10-03,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+508,P00254,Amanda Smith,1975-10-03,F,Osteomielite,2020-09-28,,True
+509,P00255,Alexis Neal,1965-12-17,F,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+510,P00255,Jason Martin,1965-12-17,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+511,P00256,Brian Newton,1987-09-07,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+512,P00256,Alisha Wilson,1987-09-07,F,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+513,P00257,Dennis Holland,1936-12-03,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+514,P00257,John Leblanc,1936-12-03,M,Hemorragia Digestiva,2020-09-28,,True
+515,P00258,Patricia Rose,2009-01-18,F,Diverticulite,2018-01-01,2020-09-27,False
+516,P00258,Jennifer Bennett,2009-01-18,F,Queimaduras Graves,2020-09-28,,True
+517,P00259,Lisa Hayes,2024-06-22,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+518,P00259,Christopher Johnson,2024-06-22,M,Arritmias Cardíacas,2020-09-28,,True
+519,P00260,Lauren Horton,1996-08-13,M,Asma Grave,2018-01-01,2020-09-27,False
+520,P00260,Victoria Johnson,1996-08-13,M,Meningite e Encefalite,2020-09-28,,True
+521,P00261,Autumn Walker,1940-12-09,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+522,P00261,Phillip Bailey,1940-12-09,F,Traumatismo Craniano,2020-09-28,,True
+523,P00262,Dr. Brandon Kidd,1968-07-17,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+524,P00262,Jennifer Ferrell,1968-07-17,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+525,P00263,Thomas Jackson,2011-10-02,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+526,P00263,Stephen Villarreal,2011-10-02,F,Insuficiência Renal Aguda,2020-09-28,,True
+527,P00264,Marc Jenkins,2023-06-11,F,Asma Grave,2018-01-01,2020-09-27,False
+528,P00264,Julie Davis,2023-06-11,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+529,P00265,Krista Odom,2016-04-23,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+530,P00265,Joseph Juarez,2016-04-23,M,Meningite e Encefalite,2020-09-28,,True
+531,P00266,John Flores,1958-01-28,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+532,P00266,Adrian Keith,1958-01-28,F,Osteomielite,2020-09-28,,True
+533,P00267,Debra Stevens,1998-08-03,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+534,P00267,William Johnson,1998-08-03,M,Diverticulite,2020-09-28,,True
+535,P00268,Paul Adams,2008-10-21,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+536,P00268,Tracy Ortiz,2008-10-21,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+537,P00269,Aaron Klein,1975-01-24,M,Asma Grave,2018-01-01,2020-09-27,False
+538,P00269,Ian Ramsey,1975-01-24,M,Apendicite Aguda,2020-09-28,,True
+539,P00270,Gabriela Gutierrez,1954-01-26,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+540,P00270,Stacey Jimenez,1954-01-26,M,Embolia Pulmonar,2020-09-28,,True
+541,P00271,Michael Humphrey,1948-03-26,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+542,P00271,Ricky Ward,1948-03-26,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+543,P00272,Cody Best,1971-07-24,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+544,P00272,Eugene Lewis,1971-07-24,M,Cirrose Hepática e suas complicações,2020-09-28,,True
+545,P00273,Sandra Carter,1962-04-14,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+546,P00273,Brad Garcia,1962-04-14,M,Trombose Venosa Profunda,2020-09-28,,True
+547,P00274,Matthew Stokes,1958-10-22,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+548,P00274,Melissa Roach,1958-10-22,M,Sepse/Infecção Generalizada,2020-09-28,,True
+549,P00275,Ricardo Coleman,1995-11-02,M,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+550,P00275,Michael Bowers,1995-11-02,M,Hemorragia Digestiva,2020-09-28,,True
+551,P00276,Cheyenne Phillips,1940-12-08,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+552,P00276,Nicholas Mccullough,1940-12-08,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+553,P00277,John Jones,2010-10-20,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+554,P00277,Julia Greene,2010-10-20,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+555,P00278,Travis Morris,1995-11-12,M,Asma Grave,2018-01-01,2020-09-27,False
+556,P00278,Michael Jackson,1995-11-12,M,Asma Grave,2020-09-28,,True
+557,P00279,John Garcia,1976-04-26,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+558,P00279,Felicia White,1976-04-26,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+559,P00280,Matthew Shelton,1940-10-06,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+560,P00280,Leah Ayala,1940-10-06,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+561,P00281,Ashley Mills,2005-07-08,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+562,P00281,Terry Wilson,2005-07-08,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+563,P00282,Marie Ortiz,1986-05-08,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+564,P00282,Andrew Thompson,1986-05-08,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+565,P00283,Stephen Quinn,1958-03-31,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+566,P00283,Brett Valdez,1958-03-31,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+567,P00284,Donna Burke,1943-07-07,F,Asma Grave,2018-01-01,2020-09-27,False
+568,P00284,Paul Lee,1943-07-07,F,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+569,P00285,Andrew Francis,1982-12-09,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+570,P00285,Autumn Smith,1982-12-09,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+571,P00286,Carolyn Perez,2015-01-25,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+572,P00286,Marc Bailey,2015-01-25,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+573,P00287,Justin Riley,2013-09-08,F,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+574,P00287,Meredith Jimenez,2013-09-08,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+575,P00288,Michelle Campbell,1935-02-15,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+576,P00288,Jill Meadows,1935-02-15,M,Pancreatite Aguda,2020-09-28,,True
+577,P00289,Timothy Rivera,2010-11-16,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+578,P00289,Bill Zhang,2010-11-16,M,Arritmias Cardíacas,2020-09-28,,True
+579,P00290,Ethan Stevens,1936-08-15,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+580,P00290,Diana Bowen,1936-08-15,M,Apendicite Aguda,2020-09-28,,True
+581,P00291,Jamie Chang,1969-02-24,F,Pneumonia,2018-01-01,2020-09-27,False
+582,P00291,Ann Lee,1969-02-24,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+583,P00292,Nancy Fitzgerald,2003-12-31,F,Pancreatite Aguda,2018-01-01,2020-09-27,False
+584,P00292,James Douglas,2003-12-31,F,Gastroenterite com desidratação grave,2020-09-28,,True
+585,P00293,Roger Hardy,1981-06-01,F,Osteomielite,2018-01-01,2020-09-27,False
+586,P00293,Natalie White,1981-06-01,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+587,P00294,Teresa Novak,1941-08-01,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+588,P00294,Karen Smith,1941-08-01,M,Queimaduras Graves,2020-09-28,,True
+589,P00295,Amber Crawford,2017-07-14,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+590,P00295,Michael Johnson,2017-07-14,M,Insuficiência Renal Aguda,2020-09-28,,True
+591,P00296,Jason Williams,1950-08-02,F,Osteomielite,2018-01-01,2020-09-27,False
+592,P00296,Ethan Beck,1950-08-02,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+593,P00297,Michael Pearson,2007-01-27,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+594,P00297,George Moreno,2007-01-27,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+595,P00298,Dr. Cynthia Wood,1950-04-09,M,Asma Grave,2018-01-01,2020-09-27,False
+596,P00298,Kristine Fleming,1950-04-09,M,Traumatismo Craniano,2020-09-28,,True
+597,P00299,Norma Davidson,2003-09-25,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+598,P00299,Jessica White,2003-09-25,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+599,P00300,Hannah Duncan,1957-08-12,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+600,P00300,Chris Johnson,1957-08-12,M,Pancreatite Aguda,2020-09-28,,True
+601,P00301,William Hansen,2002-01-14,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+602,P00301,Mark Garcia,2002-01-14,M,Pneumonia,2020-09-28,,True
+603,P00302,Matthew Briggs,1991-12-02,F,Osteomielite,2018-01-01,2020-09-27,False
+604,P00302,Debra Jones,1991-12-02,F,Arritmias Cardíacas,2020-09-28,,True
+605,P00303,Timothy Carter,1961-07-11,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+606,P00303,Cheryl Wolfe,1961-07-11,F,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+607,P00304,William Garcia,1966-06-13,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+608,P00304,Joshua Harris,1966-06-13,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+609,P00305,Kenneth Garcia,1999-04-21,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+610,P00305,Cheryl Weaver,1999-04-21,F,Meningite e Encefalite,2020-09-28,,True
+611,P00306,Nicholas Riddle,1957-04-29,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+612,P00306,Jamie Vaughan,1957-04-29,M,Cirrose Hepática e suas complicações,2020-09-28,,True
+613,P00307,Jonathan Ray,1943-10-23,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+614,P00307,James Gomez,1943-10-23,F,Pancreatite Aguda,2020-09-28,,True
+615,P00308,George Garcia,1937-04-15,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+616,P00308,Nicole Martinez,1937-04-15,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+617,P00309,Michael Kennedy,2002-03-18,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+618,P00309,Angela Ramirez,2002-03-18,M,Pneumonia,2020-09-28,,True
+619,P00310,Sean Barry,2002-08-22,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+620,P00310,Ethan Mccarty,2002-08-22,M,Traumatismo Craniano,2020-09-28,,True
+621,P00311,Edward Walton,1995-04-12,F,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+622,P00311,Jerry Fisher,1995-04-12,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+623,P00312,David King,1950-06-26,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+624,P00312,Mary Carroll,1950-06-26,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+625,P00313,Scott Cook,1956-05-12,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+626,P00313,Destiny Miles,1956-05-12,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+627,P00314,Joel Coleman,1991-08-22,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+628,P00314,Justin Fitzgerald,1991-08-22,F,Arritmias Cardíacas,2020-09-28,,True
+629,P00315,Taylor Riley,1986-10-22,F,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+630,P00315,Joshua Johnson,1986-10-22,F,Pneumonia,2020-09-28,,True
+631,P00316,Michael Anderson,1960-03-22,M,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+632,P00316,Brandy Wheeler,1960-03-22,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+633,P00317,Stephen Garner,1954-11-11,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+634,P00317,Helen Williamson DVM,1954-11-11,M,Embolia Pulmonar,2020-09-28,,True
+635,P00318,Tonya Simpson,2007-02-07,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+636,P00318,Thomas Randall,2007-02-07,F,Pancreatite Aguda,2020-09-28,,True
+637,P00319,Jeremy Williamson Jr.,1959-07-27,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+638,P00319,Danielle Murphy,1959-07-27,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+639,P00320,Samantha Patterson,2003-11-13,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+640,P00320,Michelle Harvey,2003-11-13,F,Apendicite Aguda,2020-09-28,,True
+641,P00321,Thomas Ford,2006-12-14,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+642,P00321,Juan Torres,2006-12-14,M,Apendicite Aguda,2020-09-28,,True
+643,P00322,Jessica Good,2017-07-18,F,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+644,P00322,Robert Warren,2017-07-18,F,Queimaduras Graves,2020-09-28,,True
+645,P00323,Henry Rojas,2007-12-07,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+646,P00323,Toni Russell,2007-12-07,M,Pneumonia,2020-09-28,,True
+647,P00324,Karen Reed,1945-04-10,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+648,P00324,Eric Price DDS,1945-04-10,F,Trombose Venosa Profunda,2020-09-28,,True
+649,P00325,Michael Lopez,1994-07-09,F,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+650,P00325,Kristen Morales,1994-07-09,F,Diverticulite,2020-09-28,,True
+651,P00326,Robert Michael,1986-11-05,M,Asma Grave,2018-01-01,2020-09-27,False
+652,P00326,Randall Mullins,1986-11-05,M,Insuficiência Renal Aguda,2020-09-28,,True
+653,P00327,John Page,2016-01-11,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+654,P00327,Joshua Pena,2016-01-11,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+655,P00328,Justin Knapp,1942-02-05,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+656,P00328,Timothy Murphy,1942-02-05,F,Osteomielite,2020-09-28,,True
+657,P00329,Joshua Valdez,2021-01-31,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+658,P00329,Melissa Webster,2021-01-31,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+659,P00330,Eric Romero,1995-08-11,M,Osteomielite,2018-01-01,2020-09-27,False
+660,P00330,Jenny Hall,1995-08-11,M,Embolia Pulmonar,2020-09-28,,True
+661,P00331,Janet Dillon,1979-03-03,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+662,P00331,Rachel Hudson,1979-03-03,F,Diverticulite,2020-09-28,,True
+663,P00332,Mario Green,2008-12-20,M,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+664,P00332,Marie Campbell,2008-12-20,M,Queimaduras Graves,2020-09-28,,True
+665,P00333,Beverly Torres,1956-12-11,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+666,P00333,Bianca Morales,1956-12-11,F,Doenças Autoimunes em crise,2020-09-28,,True
+667,P00334,Destiny Rodriguez,2018-11-10,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+668,P00334,Jessica Wright,2018-11-10,F,Meningite e Encefalite,2020-09-28,,True
+669,P00335,Justin Richards,1955-07-06,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+670,P00335,Melissa George,1955-07-06,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+671,P00336,Stacey Mccoy,1991-07-28,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+672,P00336,Terry Sloan,1991-07-28,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+673,P00337,Leah Carr,1967-07-14,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+674,P00337,Veronica Mclean,1967-07-14,M,Insuficiência Renal Aguda,2020-09-28,,True
+675,P00338,Laura Taylor MD,1973-11-09,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+676,P00338,Shelly Joseph,1973-11-09,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+677,P00339,Heather Boone,1959-09-17,F,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+678,P00339,Brent Fox,1959-09-17,F,Embolia Pulmonar,2020-09-28,,True
+679,P00340,Sydney Patel,1952-12-20,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+680,P00340,Robin Howard,1952-12-20,F,Pneumonia,2020-09-28,,True
+681,P00341,Lori Trevino,2020-11-28,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+682,P00341,Tammy Lewis,2020-11-28,F,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+683,P00342,Timothy Thomas,2015-11-21,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+684,P00342,Lisa Wallace,2015-11-21,M,Pneumonia,2020-09-28,,True
+685,P00343,Christine Thomas,1949-02-21,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+686,P00343,Justin Kim,1949-02-21,F,Embolia Pulmonar,2020-09-28,,True
+687,P00344,Jamie Calderon,1967-01-14,F,Asma Grave,2018-01-01,2020-09-27,False
+688,P00344,Jesus Pham,1967-01-14,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+689,P00345,Brittany Clark,1992-07-18,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+690,P00345,Ashley Gomez,1992-07-18,M,Arritmias Cardíacas,2020-09-28,,True
+691,P00346,Heather White,1938-05-19,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+692,P00346,Jason Hansen,1938-05-19,M,Traumatismo Craniano,2020-09-28,,True
+693,P00347,Kayla Garcia,2009-09-11,M,Asma Grave,2018-01-01,2020-09-27,False
+694,P00347,Matthew Smith,2009-09-11,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+695,P00348,Deanna Bryan,1970-10-31,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+696,P00348,Alan Brooks,1970-10-31,F,Diverticulite,2020-09-28,,True
+697,P00349,Kelly Walker,1948-02-13,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+698,P00349,Tyler Walter,1948-02-13,F,Diverticulite,2020-09-28,,True
+699,P00350,Bobby Moreno,1980-03-09,F,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+700,P00350,Jessica Ortiz,1980-03-09,F,Embolia Pulmonar,2020-09-28,,True
+701,P00351,Samantha Cabrera,1980-11-27,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+702,P00351,Ashley Duncan,1980-11-27,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+703,P00352,Mrs. Andrea James,1954-01-08,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+704,P00352,Jessica Campbell,1954-01-08,M,Osteomielite,2020-09-28,,True
+705,P00353,Victor Vang,1970-05-10,F,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+706,P00353,James Gonzalez,1970-05-10,F,Pancreatite Aguda,2020-09-28,,True
+707,P00354,John Palmer,1985-10-22,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+708,P00354,Kaitlin Chavez,1985-10-22,M,Apendicite Aguda,2020-09-28,,True
+709,P00355,Michelle Henderson,1983-10-24,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+710,P00355,Frank Cox,1983-10-24,M,Cirrose Hepática e suas complicações,2020-09-28,,True
+711,P00356,Carl Smith,2005-04-01,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+712,P00356,William Daniels,2005-04-01,F,Osteomielite,2020-09-28,,True
+713,P00357,Dawn Dickerson,1985-04-22,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+714,P00357,Stephanie Garcia,1985-04-22,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+715,P00358,Todd Warner,1978-11-16,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+716,P00358,Eric Goodwin,1978-11-16,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+717,P00359,Lindsey Clark,1939-08-31,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+718,P00359,Patricia Figueroa,1939-08-31,F,Gastroenterite com desidratação grave,2020-09-28,,True
+719,P00360,John Floyd,2014-05-09,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+720,P00360,Carl Preston,2014-05-09,M,Traumatismo Craniano,2020-09-28,,True
+721,P00361,Stephanie Michael,1945-09-09,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+722,P00361,Ashley Williams,1945-09-09,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+723,P00362,Anthony Haynes,1949-02-07,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+724,P00362,Nicholas Taylor,1949-02-07,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+725,P00363,Jennifer Hogan,2021-11-07,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+726,P00363,Angel Jones,2021-11-07,M,Pneumonia,2020-09-28,,True
+727,P00364,Richard Ritter,2009-07-17,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+728,P00364,Ashley Parker,2009-07-17,M,Traumatismo Craniano,2020-09-28,,True
+729,P00365,Juan Barnett,1979-12-29,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+730,P00365,Carolyn Mclean,1979-12-29,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+731,P00366,Karen Barber,1974-01-31,F,Pancreatite Aguda,2018-01-01,2020-09-27,False
+732,P00366,Mary Weiss,1974-01-31,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+733,P00367,Nicole Hansen,1938-06-28,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+734,P00367,John Thompson,1938-06-28,M,Embolia Pulmonar,2020-09-28,,True
+735,P00368,Julian Wilson,1935-07-31,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+736,P00368,Jasmine Gardner,1935-07-31,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+737,P00369,Kelly Reeves,1952-01-23,M,Traumatismo Craniano,2018-01-01,2020-09-27,False
+738,P00369,Christopher Cunningham,1952-01-23,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+739,P00370,James Wells,1993-12-11,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+740,P00370,Douglas Chan,1993-12-11,M,Sepse/Infecção Generalizada,2020-09-28,,True
+741,P00371,Tanya West,1995-06-21,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+742,P00371,Ryan Mitchell,1995-06-21,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+743,P00372,Robin Sanford,1938-01-06,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+744,P00372,Andrea Warner,1938-01-06,M,Hemorragia Digestiva,2020-09-28,,True
+745,P00373,Jessica Wright,1964-10-19,F,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+746,P00373,Robert Brown,1964-10-19,F,Hemorragia Digestiva,2020-09-28,,True
+747,P00374,Kevin Sanders,1967-07-19,F,Pancreatite Aguda,2018-01-01,2020-09-27,False
+748,P00374,John Williams,1967-07-19,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+749,P00375,Derek Walsh,2005-06-20,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+750,P00375,Lisa Powell,2005-06-20,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+751,P00376,Dylan Jones,1959-01-01,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+752,P00376,Jessica Murphy,1959-01-01,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+753,P00377,Toni Larsen DVM,1958-10-18,F,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+754,P00377,Megan Smith,1958-10-18,F,Insuficiência Renal Aguda,2020-09-28,,True
+755,P00378,Kim Morris,1951-11-01,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+756,P00378,Deborah Gamble,1951-11-01,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+757,P00379,Terri Morris,1988-08-17,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+758,P00379,Shannon Moore,1988-08-17,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+759,P00380,Jessica Russell,1958-10-23,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+760,P00380,Robert Atkinson,1958-10-23,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+761,P00381,Alexandra Wood,1954-08-21,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+762,P00381,Daniel Ellis,1954-08-21,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+763,P00382,Jeffrey Martin,1993-06-15,F,Osteomielite,2018-01-01,2020-09-27,False
+764,P00382,Sean Ballard,1993-06-15,F,Arritmias Cardíacas,2020-09-28,,True
+765,P00383,Jonathan Myers,1957-01-24,F,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+766,P00383,Danny Booker,1957-01-24,F,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+767,P00384,Michael Harvey,1995-12-07,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+768,P00384,Heidi Rogers,1995-12-07,M,Sepse/Infecção Generalizada,2020-09-28,,True
+769,P00385,Cody Price,2009-09-04,F,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+770,P00385,Jordan Gomez,2009-09-04,F,Gastroenterite com desidratação grave,2020-09-28,,True
+771,P00386,Mrs. Maria Harper MD,2012-12-10,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+772,P00386,Kerry Torres,2012-12-10,M,Queimaduras Graves,2020-09-28,,True
+773,P00387,Hannah Peterson,1949-02-22,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+774,P00387,Brett Moore,1949-02-22,F,Queimaduras Graves,2020-09-28,,True
+775,P00388,Jonathan Roberts,1983-08-03,F,Pancreatite Aguda,2018-01-01,2020-09-27,False
+776,P00388,Edward Campbell,1983-08-03,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+777,P00389,Crystal Mullen,1986-01-04,F,Queimaduras Graves,2018-01-01,2020-09-27,False
+778,P00389,Eric Leach,1986-01-04,F,Meningite e Encefalite,2020-09-28,,True
+779,P00390,Scott Santana,1948-08-31,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+780,P00390,William Adams,1948-08-31,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+781,P00391,Shawn Pace,1969-04-17,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+782,P00391,Patrick Hurst,1969-04-17,F,Traumatismo Craniano,2020-09-28,,True
+783,P00392,Erin Medina,1981-01-07,F,Asma Grave,2018-01-01,2020-09-27,False
+784,P00392,Amanda Hall,1981-01-07,F,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+785,P00393,Alison Lawrence,1991-10-11,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+786,P00393,Stephanie Barrett,1991-10-11,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+787,P00394,James Howard,1951-10-06,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+788,P00394,Tina Trujillo,1951-10-06,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+789,P00395,Juan Smith,1964-03-31,F,Osteomielite,2018-01-01,2020-09-27,False
+790,P00395,Justin Watson,1964-03-31,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+791,P00396,Michele Byrd,1966-11-16,F,Diverticulite,2018-01-01,2020-09-27,False
+792,P00396,Michael Proctor,1966-11-16,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+793,P00397,David Long,2009-03-29,F,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+794,P00397,Megan Peters,2009-03-29,F,Sepse/Infecção Generalizada,2020-09-28,,True
+795,P00398,James Walker,2001-06-14,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+796,P00398,Kevin Roman,2001-06-14,M,Pneumonia,2020-09-28,,True
+797,P00399,Debra Murphy DVM,1948-08-12,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+798,P00399,Amanda Davis,1948-08-12,M,Insuficiência Renal Aguda,2020-09-28,,True
+799,P00400,Marc Huang,1955-04-26,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+800,P00400,Nancy Miller,1955-04-26,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+801,P00401,William Reed,2015-08-06,M,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+802,P00401,Bridget Haynes,2015-08-06,M,Insuficiência Renal Aguda,2020-09-28,,True
+803,P00402,Kimberly Fuentes,1964-05-07,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+804,P00402,James Copeland,1964-05-07,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+805,P00403,Ian Bush,1945-02-19,F,Diverticulite,2018-01-01,2020-09-27,False
+806,P00403,Eric Wiggins,1945-02-19,F,Osteomielite,2020-09-28,,True
+807,P00404,Brandy Peterson,2019-09-27,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+808,P00404,Allison Benson,2019-09-27,M,Pneumonia,2020-09-28,,True
+809,P00405,Alexis Mann,2010-12-10,M,Osteomielite,2018-01-01,2020-09-27,False
+810,P00405,Daniel Perez,2010-12-10,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+811,P00406,Wendy Harrell,1951-09-10,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+812,P00406,Tammy Moore,1951-09-10,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+813,P00407,Teresa Wright,1950-09-20,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+814,P00407,Brittney Johnson,1950-09-20,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+815,P00408,Matthew Foster,2018-09-12,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+816,P00408,Diane Stevens,2018-09-12,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+817,P00409,Charles Winters,2014-09-30,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+818,P00409,Michael Leonard,2014-09-30,M,Diverticulite,2020-09-28,,True
+819,P00410,Phillip Schneider,2003-09-03,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+820,P00410,Paul Howard,2003-09-03,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+821,P00411,Nicholas Mullins,1944-01-06,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+822,P00411,Allison Wright,1944-01-06,M,Pancreatite Aguda,2020-09-28,,True
+823,P00412,James Conner,1959-12-10,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+824,P00412,Mary Richardson,1959-12-10,F,Asma Grave,2020-09-28,,True
+825,P00413,Theresa Velez,1952-06-18,F,Asma Grave,2018-01-01,2020-09-27,False
+826,P00413,Timothy Blake,1952-06-18,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+827,P00414,Loretta Sanchez,1958-05-09,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+828,P00414,Matthew Owen,1958-05-09,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+829,P00415,Duane Hensley,1989-03-25,M,Asma Grave,2018-01-01,2020-09-27,False
+830,P00415,Timothy Duarte,1989-03-25,M,Arritmias Cardíacas,2020-09-28,,True
+831,P00416,Stephanie Hill,1944-05-06,F,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+832,P00416,Lindsay Carey,1944-05-06,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+833,P00417,Phillip Vaughan,2008-02-08,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+834,P00417,Melissa Robinson,2008-02-08,F,Meningite e Encefalite,2020-09-28,,True
+835,P00418,Scott Maxwell,1999-01-13,M,Pneumonia,2018-01-01,2020-09-27,False
+836,P00418,Mary Escobar,1999-01-13,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+837,P00419,James Lopez,1986-02-24,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+838,P00419,Benjamin Brewer,1986-02-24,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+839,P00420,Dana Rodriguez,1955-07-30,M,Diverticulite,2018-01-01,2020-09-27,False
+840,P00420,John Mitchell,1955-07-30,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+841,P00421,Frank Mullins,1980-04-01,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+842,P00421,Judy Gray,1980-04-01,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+843,P00422,William Henry,1969-04-15,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+844,P00422,John Wilson PhD,1969-04-15,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+845,P00423,Amanda Brown,1950-11-05,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+846,P00423,Kyle Woods,1950-11-05,M,Cirrose Hepática e suas complicações,2020-09-28,,True
+847,P00424,Mario Wyatt,1965-05-10,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+848,P00424,Aaron Lawson Jr.,1965-05-10,M,Arritmias Cardíacas,2020-09-28,,True
+849,P00425,Carolyn Gibson,2009-06-09,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+850,P00425,Nicholas Gibson,2009-06-09,M,Pneumonia,2020-09-28,,True
+851,P00426,Jessica Thomas,1987-05-07,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+852,P00426,David Perez,1987-05-07,M,Traumatismo Craniano,2020-09-28,,True
+853,P00427,Stephen Hernandez DVM,1982-09-14,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+854,P00427,Taylor Cox,1982-09-14,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+855,P00428,Dana Collins,1996-03-31,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+856,P00428,Megan Huff,1996-03-31,M,Asma Grave,2020-09-28,,True
+857,P00429,Michael Harris,2005-11-04,F,Osteomielite,2018-01-01,2020-09-27,False
+858,P00429,Crystal Black,2005-11-04,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+859,P00430,Kimberly Mahoney,1976-07-06,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+860,P00430,Ronald Schmidt,1976-07-06,M,Gastroenterite com desidratação grave,2020-09-28,,True
+861,P00431,Lee Harris,1939-12-13,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+862,P00431,Robert Gaines,1939-12-13,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+863,P00432,Jamie Hughes,2014-12-09,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+864,P00432,Nicholas Miller,2014-12-09,F,Hemorragia Digestiva,2020-09-28,,True
+865,P00433,Pam Lee,2007-12-01,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+866,P00433,Pamela Gibson,2007-12-01,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+867,P00434,Mr. Victor Wolf,1965-09-07,F,Queimaduras Graves,2018-01-01,2020-09-27,False
+868,P00434,Debbie Duke,1965-09-07,F,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+869,P00435,Margaret Williams,1946-09-08,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+870,P00435,Cheryl Johnson,1946-09-08,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+871,P00436,Anthony Garcia,2002-03-03,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+872,P00436,Thomas Smith,2002-03-03,M,Insuficiência Renal Aguda,2020-09-28,,True
+873,P00437,Ronald Wilson,1994-10-18,M,Asma Grave,2018-01-01,2020-09-27,False
+874,P00437,Brian Rogers,1994-10-18,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+875,P00438,Ronald Parker,2013-09-12,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+876,P00438,Chelsea Carr,2013-09-12,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+877,P00439,Mr. Brent Kirk,1996-12-31,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+878,P00439,Tami Combs,1996-12-31,F,Insuficiência Renal Aguda,2020-09-28,,True
+879,P00440,Richard Kim,1955-08-20,M,Pneumonia,2018-01-01,2020-09-27,False
+880,P00440,Andrew Schultz,1955-08-20,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+881,P00441,Heather Rivas,1986-06-26,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+882,P00441,Matthew Stone,1986-06-26,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+883,P00442,Connie Brown,2021-11-02,F,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+884,P00442,Joel Glenn,2021-11-02,F,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+885,P00443,Nicole Barker,1963-05-30,M,Traumatismo Craniano,2018-01-01,2020-09-27,False
+886,P00443,Jose Lewis,1963-05-30,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+887,P00444,Joshua Nguyen,1951-11-11,F,Pneumonia,2018-01-01,2020-09-27,False
+888,P00444,Kyle Dillon,1951-11-11,F,Embolia Pulmonar,2020-09-28,,True
+889,P00445,Stephanie Chase,1961-11-12,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+890,P00445,Taylor Johnson,1961-11-12,M,Osteomielite,2020-09-28,,True
+891,P00446,Denise Wheeler,1934-12-18,F,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+892,P00446,Kayla Smith,1934-12-18,F,Arritmias Cardíacas,2020-09-28,,True
+893,P00447,Kristin Solomon,1939-11-25,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+894,P00447,Richard Valentine,1939-11-25,F,Apendicite Aguda,2020-09-28,,True
+895,P00448,Katherine Villanueva,2014-03-04,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+896,P00448,Jeremy Boyer,2014-03-04,F,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+897,P00449,Tina Hawkins,1961-01-15,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+898,P00449,Laura Lewis,1961-01-15,M,Gastroenterite com desidratação grave,2020-09-28,,True
+899,P00450,Steven Dodson,2012-07-23,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+900,P00450,Meredith Barr,2012-07-23,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+901,P00451,Catherine Cox,1952-04-10,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+902,P00451,Rhonda Donovan,1952-04-10,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+903,P00452,Sharon Smith,1998-05-02,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+904,P00452,Stacie Davis,1998-05-02,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+905,P00453,Michael Griffin,1985-06-07,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+906,P00453,Kristina Cooper,1985-06-07,F,Traumatismo Craniano,2020-09-28,,True
+907,P00454,Jennifer Beck,1938-01-15,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+908,P00454,Nathaniel Shepherd,1938-01-15,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+909,P00455,Pamela Cervantes,1955-12-08,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+910,P00455,Sandy Bradley,1955-12-08,M,Osteomielite,2020-09-28,,True
+911,P00456,Michael Carter,1945-10-16,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+912,P00456,Christopher Sullivan,1945-10-16,M,Meningite e Encefalite,2020-09-28,,True
+913,P00457,Paul Lam,2004-01-04,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+914,P00457,Amy Robinson,2004-01-04,M,Hemorragia Digestiva,2020-09-28,,True
+915,P00458,Thomas Jones,1981-06-11,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+916,P00458,Robert Lamb,1981-06-11,F,Cirrose Hepática e suas complicações,2020-09-28,,True
+917,P00459,Victor Little,1986-01-28,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+918,P00459,Kevin Nicholson,1986-01-28,M,Hemorragia Digestiva,2020-09-28,,True
+919,P00460,Robert Oconnell,1953-12-20,F,Pneumonia,2018-01-01,2020-09-27,False
+920,P00460,Teresa Anderson,1953-12-20,F,Hemorragia Digestiva,2020-09-28,,True
+921,P00461,Jamie Evans,1938-01-09,M,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+922,P00461,Beth Peck,1938-01-09,M,Hemorragia Digestiva,2020-09-28,,True
+923,P00462,Benjamin Dixon,1956-11-04,M,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+924,P00462,Douglas Schneider,1956-11-04,M,Gastroenterite com desidratação grave,2020-09-28,,True
+925,P00463,Ashley Morris,1978-04-23,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+926,P00463,Jacob Arnold,1978-04-23,F,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+927,P00464,Craig Raymond,1950-05-23,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+928,P00464,Shaun Gibbs,1950-05-23,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+929,P00465,Melissa Stokes,2001-05-25,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+930,P00465,Paul Howard,2001-05-25,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+931,P00466,Michelle Norton,2003-02-17,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+932,P00466,Joseph Moore,2003-02-17,F,Osteomielite,2020-09-28,,True
+933,P00467,Daniel Burke,1972-11-01,F,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+934,P00467,Michael Carlson,1972-11-01,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+935,P00468,Joe Garcia,1969-02-12,F,Asma Grave,2018-01-01,2020-09-27,False
+936,P00468,Kristie Smith,1969-02-12,F,Sepse/Infecção Generalizada,2020-09-28,,True
+937,P00469,Danny Martin,1942-07-31,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+938,P00469,James Williams,1942-07-31,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+939,P00470,Calvin Johnson III,1976-09-29,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+940,P00470,Melissa Cobb,1976-09-29,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+941,P00471,Karen Nguyen,2007-11-17,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+942,P00471,Megan Martin,2007-11-17,M,Doenças Autoimunes em crise,2020-09-28,,True
+943,P00472,Nancy Cohen,2018-10-30,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+944,P00472,Linda Potts,2018-10-30,M,Diverticulite,2020-09-28,,True
+945,P00473,Steven Curry,1997-02-19,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+946,P00473,Russell Jenkins,1997-02-19,M,Diverticulite,2020-09-28,,True
+947,P00474,John Evans,1939-08-27,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+948,P00474,Raymond Compton,1939-08-27,F,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+949,P00475,Jordan Martinez,2011-03-29,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+950,P00475,Christina Hayes,2011-03-29,F,Doenças Autoimunes em crise,2020-09-28,,True
+951,P00476,Brad Oneal,2023-04-15,M,Osteomielite,2018-01-01,2020-09-27,False
+952,P00476,Rachel Franklin,2023-04-15,M,Traumatismo Craniano,2020-09-28,,True
+953,P00477,Hannah White,2012-10-24,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+954,P00477,Laura Howard,2012-10-24,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+955,P00478,Paul Knight,1967-11-30,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+956,P00478,Mark Jones,1967-11-30,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+957,P00479,John Russell,2024-08-17,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+958,P00479,Timothy Nunez,2024-08-17,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+959,P00480,James Gonzalez,2016-09-10,F,Osteomielite,2018-01-01,2020-09-27,False
+960,P00480,Rachael Lopez,2016-09-10,F,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+961,P00481,Ricardo Burke,2010-06-10,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+962,P00481,Jordan Murray,2010-06-10,F,Embolia Pulmonar,2020-09-28,,True
+963,P00482,Chloe Harris,1954-06-20,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+964,P00482,Michael Thomas,1954-06-20,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+965,P00483,Timothy Lamb,1937-09-27,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+966,P00483,Jessica Moore,1937-09-27,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+967,P00484,Dominic Vazquez,1994-02-23,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+968,P00484,Brian Barajas,1994-02-23,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+969,P00485,Kellie Flowers,2001-04-24,F,Pancreatite Aguda,2018-01-01,2020-09-27,False
+970,P00485,Emma Schultz,2001-04-24,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+971,P00486,Destiny Chung,1960-04-29,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+972,P00486,Heidi Boone,1960-04-29,M,Hemorragia Digestiva,2020-09-28,,True
+973,P00487,Bryan Molina,1952-07-12,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+974,P00487,Nancy Ryan,1952-07-12,M,Traumatismo Craniano,2020-09-28,,True
+975,P00488,Robert Doyle,1978-09-04,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+976,P00488,Robert Clark,1978-09-04,F,Gastroenterite com desidratação grave,2020-09-28,,True
+977,P00489,Eric Moore,1960-02-21,M,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+978,P00489,Sarah Greene,1960-02-21,M,Hemorragia Digestiva,2020-09-28,,True
+979,P00490,Bianca Landry,1961-09-22,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+980,P00490,Richard Thompson,1961-09-22,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+981,P00491,Jonathan Bates,2011-04-19,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+982,P00491,Darrell Davis,2011-04-19,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+983,P00492,Lisa Maddox,2023-07-08,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+984,P00492,Samuel Reyes,2023-07-08,M,Hemorragia Digestiva,2020-09-28,,True
+985,P00493,Steven Miller,2008-06-28,M,Traumatismo Craniano,2018-01-01,2020-09-27,False
+986,P00493,Scott Watts,2008-06-28,M,Hemorragia Digestiva,2020-09-28,,True
+987,P00494,Jeffrey Garcia,2001-03-18,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+988,P00494,Devin Smith,2001-03-18,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+989,P00495,Tracey Walker,2018-06-15,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+990,P00495,Joshua Chapman DVM,2018-06-15,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+991,P00496,Sharon Cardenas,1936-10-28,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+992,P00496,Reginald Romero,1936-10-28,F,Trombose Venosa Profunda,2020-09-28,,True
+993,P00497,Katrina Phillips,1940-05-08,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+994,P00497,Miss Heather Oliver,1940-05-08,M,Osteomielite,2020-09-28,,True
+995,P00498,Jonathan Jimenez,1977-01-04,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+996,P00498,Kenneth Diaz,1977-01-04,F,Asma Grave,2020-09-28,,True
+997,P00499,Katherine Brady,1976-06-22,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+998,P00499,Colleen Valencia,1976-06-22,M,Traumatismo Craniano,2020-09-28,,True
+999,P00500,Carol Hutchinson,1973-11-30,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1000,P00500,Shannon Cannon,1973-11-30,M,Meningite e Encefalite,2020-09-28,,True
+1001,P00501,Jennifer Weber,1985-02-04,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1002,P00501,Teresa Hunt,1985-02-04,M,Gastroenterite com desidratação grave,2020-09-28,,True
+1003,P00502,Elizabeth Webb,2005-01-09,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1004,P00502,Catherine Robertson,2005-01-09,M,Pancreatite Aguda,2020-09-28,,True
+1005,P00503,George Hunt,1940-12-07,F,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1006,P00503,Robert Bradley,1940-12-07,F,Arritmias Cardíacas,2020-09-28,,True
+1007,P00504,Robert Heath,1949-09-07,M,Osteomielite,2018-01-01,2020-09-27,False
+1008,P00504,William Williams,1949-09-07,M,Doenças Autoimunes em crise,2020-09-28,,True
+1009,P00505,Barbara Nelson,2005-09-04,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1010,P00505,Patrick Hill,2005-09-04,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1011,P00506,Elizabeth Thompson,1939-11-27,M,Pneumonia,2018-01-01,2020-09-27,False
+1012,P00506,Michael Myers,1939-11-27,M,Hemorragia Digestiva,2020-09-28,,True
+1013,P00507,Amanda York,1958-10-18,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+1014,P00507,Aaron Berry,1958-10-18,M,Pancreatite Aguda,2020-09-28,,True
+1015,P00508,Samuel Reed,1950-06-11,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1016,P00508,Aaron Newman Jr.,1950-06-11,M,Gastroenterite com desidratação grave,2020-09-28,,True
+1017,P00509,Jennifer Buckley,2021-05-26,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1018,P00509,Michael Wilkerson,2021-05-26,M,Arritmias Cardíacas,2020-09-28,,True
+1019,P00510,Jacqueline Smith,1961-06-28,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1020,P00510,Marissa Cain,1961-06-28,F,Asma Grave,2020-09-28,,True
+1021,P00511,Sarah Rubio,2021-07-27,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1022,P00511,Daniel Fischer,2021-07-27,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+1023,P00512,David Williams,1956-04-12,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1024,P00512,Derrick Hansen,1956-04-12,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1025,P00513,Veronica Anderson,1945-10-03,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+1026,P00513,Amanda Williams,1945-10-03,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+1027,P00514,Rebecca Mueller,2007-08-16,M,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1028,P00514,Greg Grant,2007-08-16,M,Doenças Autoimunes em crise,2020-09-28,,True
+1029,P00515,Tyler Smith,2006-03-21,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+1030,P00515,Brandon Harrison,2006-03-21,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1031,P00516,Dawn Moreno,2006-11-24,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1032,P00516,Christy Taylor,2006-11-24,F,Trombose Venosa Profunda,2020-09-28,,True
+1033,P00517,Meredith Oconnell,1982-12-10,F,Asma Grave,2018-01-01,2020-09-27,False
+1034,P00517,Wayne Brewer,1982-12-10,F,Meningite e Encefalite,2020-09-28,,True
+1035,P00518,Lauren Anderson,2005-04-14,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1036,P00518,Ryan Evans,2005-04-14,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+1037,P00519,Jonathan Lyons,1995-04-19,M,Pneumonia,2018-01-01,2020-09-27,False
+1038,P00519,Shannon Kirby,1995-04-19,M,Hemorragia Digestiva,2020-09-28,,True
+1039,P00520,Kelly Hudson,2011-04-26,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1040,P00520,Karen Schultz,2011-04-26,F,Doenças Autoimunes em crise,2020-09-28,,True
+1041,P00521,Lisa Howell,2014-08-24,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1042,P00521,Mark Zamora,2014-08-24,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1043,P00522,Diana Marshall,2022-10-16,F,Osteomielite,2018-01-01,2020-09-27,False
+1044,P00522,Evan Stokes,2022-10-16,F,Traumatismo Craniano,2020-09-28,,True
+1045,P00523,Brian Elliott,1998-04-17,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1046,P00523,Melissa Taylor,1998-04-17,M,Asma Grave,2020-09-28,,True
+1047,P00524,Robin Johnson,1973-09-18,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1048,P00524,Brian Daugherty,1973-09-18,M,Doenças Autoimunes em crise,2020-09-28,,True
+1049,P00525,Natasha Scott,2006-04-12,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+1050,P00525,Tara Martin MD,2006-04-12,F,Asma Grave,2020-09-28,,True
+1051,P00526,Justin Garrison,1985-05-21,F,Pneumonia,2018-01-01,2020-09-27,False
+1052,P00526,Sarah Foley,1985-05-21,F,Diverticulite,2020-09-28,,True
+1053,P00527,Travis Moore DDS,2002-07-10,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1054,P00527,Sandra Kennedy,2002-07-10,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1055,P00528,April Ward,1981-06-22,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+1056,P00528,Rebecca Stephens,1981-06-22,F,Doenças Autoimunes em crise,2020-09-28,,True
+1057,P00529,Stacey Hart,1978-12-26,F,Osteomielite,2018-01-01,2020-09-27,False
+1058,P00529,Michael Chen,1978-12-26,F,Pancreatite Aguda,2020-09-28,,True
+1059,P00530,Brent Taylor,1962-11-03,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+1060,P00530,Peter Snyder,1962-11-03,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1061,P00531,Angela Ochoa,2011-08-04,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+1062,P00531,John Scott,2011-08-04,M,Queimaduras Graves,2020-09-28,,True
+1063,P00532,Ashley Saunders,1935-04-11,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1064,P00532,Jessica Pierce,1935-04-11,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+1065,P00533,Carolyn Baker,2017-02-28,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1066,P00533,Alexander Chambers,2017-02-28,M,Sepse/Infecção Generalizada,2020-09-28,,True
+1067,P00534,Michele Rodriguez,1948-05-30,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1068,P00534,Kyle Wallace,1948-05-30,F,Osteomielite,2020-09-28,,True
+1069,P00535,Alexis Johnson,1999-07-20,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1070,P00535,Susan Olson,1999-07-20,M,Pancreatite Aguda,2020-09-28,,True
+1071,P00536,David Parks,1963-10-12,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1072,P00536,Sandra Schneider,1963-10-12,F,Gastroenterite com desidratação grave,2020-09-28,,True
+1073,P00537,Ashley Jones,1937-07-15,M,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1074,P00537,Christopher Whitney,1937-07-15,M,Hemorragia Digestiva,2020-09-28,,True
+1075,P00538,Christina Hicks,1953-06-07,F,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1076,P00538,Tabitha Rodriguez MD,1953-06-07,F,Insuficiência Renal Aguda,2020-09-28,,True
+1077,P00539,Robert Banks,1959-03-12,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1078,P00539,Mary Bennett,1959-03-12,M,Diverticulite,2020-09-28,,True
+1079,P00540,Lisa Lopez,1983-09-05,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+1080,P00540,Joseph Nolan,1983-09-05,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+1081,P00541,Amanda Bonilla,1992-08-07,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+1082,P00541,Brenda Vega,1992-08-07,F,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1083,P00542,Lori Mathis,1981-12-14,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1084,P00542,Erica Anderson,1981-12-14,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+1085,P00543,Melissa Martin,1966-12-08,M,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1086,P00543,Tina Lewis,1966-12-08,M,Arritmias Cardíacas,2020-09-28,,True
+1087,P00544,Lisa Miller,1937-11-23,M,Asma Grave,2018-01-01,2020-09-27,False
+1088,P00544,Victoria Frye,1937-11-23,M,Cirrose Hepática e suas complicações,2020-09-28,,True
+1089,P00545,Alan Lozano,2015-06-05,F,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1090,P00545,Misty Green,2015-06-05,F,Arritmias Cardíacas,2020-09-28,,True
+1091,P00546,Amanda Martinez,1940-09-24,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+1092,P00546,Jason Glover,1940-09-24,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1093,P00547,Teresa Villarreal,1964-07-09,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1094,P00547,Brian Mcdaniel,1964-07-09,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+1095,P00548,Theresa Barber,1960-06-26,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1096,P00548,Scott Carlson,1960-06-26,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+1097,P00549,Kari Taylor,2006-02-01,M,Pneumonia,2018-01-01,2020-09-27,False
+1098,P00549,Sara Tanner,2006-02-01,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1099,P00550,Monica Harris,1973-07-27,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1100,P00550,Melissa Charles,1973-07-27,F,Trombose Venosa Profunda,2020-09-28,,True
+1101,P00551,Timothy Kim,1984-07-17,F,Queimaduras Graves,2018-01-01,2020-09-27,False
+1102,P00551,Raymond Hudson,1984-07-17,F,Pancreatite Aguda,2020-09-28,,True
+1103,P00552,Thomas Smith PhD,1956-03-05,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1104,P00552,Peter Keller,1956-03-05,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+1105,P00553,Jennifer Harvey,1944-09-30,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1106,P00553,Chris Raymond,1944-09-30,F,Osteomielite,2020-09-28,,True
+1107,P00554,Jenna Goodman,1965-01-12,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+1108,P00554,George Mckinney,1965-01-12,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+1109,P00555,Blake Smith,2003-07-29,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1110,P00555,Jennifer Hernandez,2003-07-29,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1111,P00556,Christopher Chandler,1943-01-23,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1112,P00556,Michael Morgan,1943-01-23,F,Doenças Autoimunes em crise,2020-09-28,,True
+1113,P00557,Michael Madden,1937-03-23,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1114,P00557,Dana Acevedo,1937-03-23,M,Hemorragia Digestiva,2020-09-28,,True
+1115,P00558,Debra King,1962-10-04,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1116,P00558,Norma Long,1962-10-04,M,Gastroenterite com desidratação grave,2020-09-28,,True
+1117,P00559,Kelsey Dominguez,2018-08-05,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1118,P00559,Kenneth Wilson,2018-08-05,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1119,P00560,Mathew Young,2019-06-01,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+1120,P00560,Ashley Cox,2019-06-01,M,Pancreatite Aguda,2020-09-28,,True
+1121,P00561,Paul Bright,1981-01-24,F,Queimaduras Graves,2018-01-01,2020-09-27,False
+1122,P00561,Aaron Houston,1981-01-24,F,Arritmias Cardíacas,2020-09-28,,True
+1123,P00562,Alicia Glass,2006-02-15,F,Queimaduras Graves,2018-01-01,2020-09-27,False
+1124,P00562,David Young,2006-02-15,F,Asma Grave,2020-09-28,,True
+1125,P00563,Christine Jones,2005-05-10,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1126,P00563,Doris Smith,2005-05-10,F,Asma Grave,2020-09-28,,True
+1127,P00564,Derek Hood,1955-08-27,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1128,P00564,Taylor Perry,1955-08-27,F,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+1129,P00565,John Hill,2009-12-04,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1130,P00565,James Brown,2009-12-04,M,Pancreatite Aguda,2020-09-28,,True
+1131,P00566,Andrew Wolfe,1949-02-19,F,Diverticulite,2018-01-01,2020-09-27,False
+1132,P00566,Victoria Nelson,1949-02-19,F,Pneumonia,2020-09-28,,True
+1133,P00567,James Morales,1968-04-23,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1134,P00567,Mary Ruiz,1968-04-23,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+1135,P00568,Melanie Shaw,1963-08-26,F,Osteomielite,2018-01-01,2020-09-27,False
+1136,P00568,William Lopez,1963-08-26,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1137,P00569,Keith Holmes,1973-11-04,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1138,P00569,Curtis Walton,1973-11-04,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1139,P00570,Carmen Bright,2000-01-20,M,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1140,P00570,Seth Wright,2000-01-20,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+1141,P00571,Trevor Chaney,1936-01-26,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1142,P00571,Lindsay Hernandez,1936-01-26,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+1143,P00572,Nicole Webster,2005-09-12,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1144,P00572,Melissa Fuller,2005-09-12,M,Cirrose Hepática e suas complicações,2020-09-28,,True
+1145,P00573,Shelby Walsh,2002-05-09,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1146,P00573,Andrea Berry,2002-05-09,F,Gastroenterite com desidratação grave,2020-09-28,,True
+1147,P00574,Christopher Jones,1992-01-13,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1148,P00574,Luis Choi,1992-01-13,F,Asma Grave,2020-09-28,,True
+1149,P00575,Kathryn Heath,2002-10-20,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1150,P00575,Kenneth Ashley,2002-10-20,M,Embolia Pulmonar,2020-09-28,,True
+1151,P00576,Katrina Perry,1998-05-19,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1152,P00576,Lisa Jennings,1998-05-19,M,Queimaduras Graves,2020-09-28,,True
+1153,P00577,Donald Cook,2023-04-28,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1154,P00577,Danielle Brown,2023-04-28,F,Insuficiência Renal Aguda,2020-09-28,,True
+1155,P00578,Tiffany Lawson,1940-10-25,M,Asma Grave,2018-01-01,2020-09-27,False
+1156,P00578,Samantha Johnson,1940-10-25,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+1157,P00579,Scott Evans,2001-02-18,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1158,P00579,Robert Harrison,2001-02-18,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1159,P00580,Lauren Stevenson,2017-06-01,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1160,P00580,Earl Williamson,2017-06-01,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+1161,P00581,Danielle Butler,2009-02-28,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1162,P00581,Timothy Tucker,2009-02-28,F,Meningite e Encefalite,2020-09-28,,True
+1163,P00582,Jessica Martinez,1994-03-15,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1164,P00582,Tamara Hawkins,1994-03-15,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+1165,P00583,Rhonda Gray,1938-12-18,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1166,P00583,Jose Fleming,1938-12-18,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1167,P00584,Sean Mckay,1982-10-27,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1168,P00584,Michael Mccann,1982-10-27,F,Apendicite Aguda,2020-09-28,,True
+1169,P00585,Leah Neal,2008-11-28,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1170,P00585,Diane Sims,2008-11-28,F,Hemorragia Digestiva,2020-09-28,,True
+1171,P00586,Ryan Palmer,2022-09-07,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1172,P00586,Erik Moore,2022-09-07,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1173,P00587,Kenneth Salas,2001-07-22,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1174,P00587,Andrew Russell DVM,2001-07-22,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1175,P00588,Anthony Clark,1940-10-10,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1176,P00588,Joshua Rios,1940-10-10,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1177,P00589,Jennifer Carrillo,1944-10-19,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1178,P00589,Ashley Garcia,1944-10-19,F,Traumatismo Craniano,2020-09-28,,True
+1179,P00590,Mary Day,1998-10-23,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1180,P00590,Megan Thomas,1998-10-23,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+1181,P00591,Patricia Garrison,1986-08-21,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1182,P00591,Michelle Scott,1986-08-21,M,Pancreatite Aguda,2020-09-28,,True
+1183,P00592,Robert James,1966-04-03,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1184,P00592,Michael Higgins,1966-04-03,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+1185,P00593,Madeline Lee,1978-03-22,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1186,P00593,Lisa Lester,1978-03-22,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+1187,P00594,Collin Martinez,2019-04-09,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1188,P00594,Bianca Smith,2019-04-09,F,Osteomielite,2020-09-28,,True
+1189,P00595,Breanna Craig,1963-01-29,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1190,P00595,Todd Klein,1963-01-29,F,Apendicite Aguda,2020-09-28,,True
+1191,P00596,Lynn Zuniga,1988-04-10,F,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1192,P00596,Shane Huffman,1988-04-10,F,Hemorragia Digestiva,2020-09-28,,True
+1193,P00597,Brandon Curtis,1965-12-24,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+1194,P00597,Gregory Ochoa,1965-12-24,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1195,P00598,Alexis Pace,1941-05-18,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1196,P00598,Alex Miles,1941-05-18,M,Diverticulite,2020-09-28,,True
+1197,P00599,David Patel,2007-09-08,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1198,P00599,Heather Smith,2007-09-08,M,Hemorragia Digestiva,2020-09-28,,True
+1199,P00600,Jesse Martinez,1954-11-16,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1200,P00600,Howard Smith,1954-11-16,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+1201,P00601,Lisa Sandoval,1975-03-27,F,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+1202,P00601,Matthew Smith,1975-03-27,F,Cirrose Hepática e suas complicações,2020-09-28,,True
+1203,P00602,Tracy Holland,1981-05-19,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1204,P00602,Kayla Bullock,1981-05-19,F,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1205,P00603,Carol Wilson,1962-11-15,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1206,P00603,Christopher Ford,1962-11-15,M,Apendicite Aguda,2020-09-28,,True
+1207,P00604,Crystal Stevens DDS,1963-01-05,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1208,P00604,Laura Barrett,1963-01-05,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1209,P00605,Patricia Brown,2014-04-20,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1210,P00605,Christopher Johnson,2014-04-20,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1211,P00606,Pamela Allen,2009-05-09,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+1212,P00606,Jonathan Collins,2009-05-09,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1213,P00607,Joseph Graham,1997-05-13,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1214,P00607,Adrienne Hopkins,1997-05-13,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+1215,P00608,Scott Harris,1937-07-03,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1216,P00608,Toni Richards,1937-07-03,F,Meningite e Encefalite,2020-09-28,,True
+1217,P00609,Devin Thornton,2013-05-10,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1218,P00609,Rachel Clark,2013-05-10,F,Asma Grave,2020-09-28,,True
+1219,P00610,Sabrina Garcia,1947-11-28,M,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1220,P00610,Stephanie Hernandez,1947-11-28,M,Sepse/Infecção Generalizada,2020-09-28,,True
+1221,P00611,Cody Diaz,1957-11-27,M,Asma Grave,2018-01-01,2020-09-27,False
+1222,P00611,Donald Lewis,1957-11-27,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+1223,P00612,Michelle Grant,1951-02-24,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1224,P00612,Seth Murphy,1951-02-24,M,Asma Grave,2020-09-28,,True
+1225,P00613,Joseph Martin,1942-12-26,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+1226,P00613,Kayla Cook,1942-12-26,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1227,P00614,Daniel Cervantes,2021-11-05,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1228,P00614,Julie Schmidt,2021-11-05,M,Osteomielite,2020-09-28,,True
+1229,P00615,Joy Willis,2001-10-07,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1230,P00615,Robert Warren,2001-10-07,M,Embolia Pulmonar,2020-09-28,,True
+1231,P00616,Meredith Torres,2007-12-26,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+1232,P00616,Sara Taylor,2007-12-26,F,Asma Grave,2020-09-28,,True
+1233,P00617,Dr. Richard Stone,1947-08-12,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1234,P00617,Lauren Miller,1947-08-12,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1235,P00618,Ellen Robertson,2011-08-28,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1236,P00618,Alan Koch,2011-08-28,F,Insuficiência Renal Aguda,2020-09-28,,True
+1237,P00619,Michael Miller,1991-08-21,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1238,P00619,Kelly Berry,1991-08-21,M,Cirrose Hepática e suas complicações,2020-09-28,,True
+1239,P00620,Diana Le,1993-12-21,M,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1240,P00620,Robin Flores,1993-12-21,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1241,P00621,Bill Alexander,1966-01-04,M,Pneumonia,2018-01-01,2020-09-27,False
+1242,P00621,Brittany Sanders,1966-01-04,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+1243,P00622,Isaiah Dominguez,2017-06-02,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+1244,P00622,Molly Sanders,2017-06-02,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1245,P00623,Robert Glass,1976-05-10,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1246,P00623,Mary Russo,1976-05-10,F,Traumatismo Craniano,2020-09-28,,True
+1247,P00624,Patrick Murphy,1999-11-16,F,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1248,P00624,Mr. Shawn French,1999-11-16,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+1249,P00625,Lindsay Sanchez,1973-01-04,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+1250,P00625,Emily Evans,1973-01-04,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1251,P00626,Kenneth Nguyen,2022-12-07,M,Pneumonia,2018-01-01,2020-09-27,False
+1252,P00626,Patricia Silva,2022-12-07,M,Hemorragia Digestiva,2020-09-28,,True
+1253,P00627,Riley Mitchell,2004-01-19,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1254,P00627,Nathan Gomez,2004-01-19,F,Trombose Venosa Profunda,2020-09-28,,True
+1255,P00628,Sarah Henry,1968-11-06,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1256,P00628,Christine Patel,1968-11-06,M,Traumatismo Craniano,2020-09-28,,True
+1257,P00629,Laura Riley,2018-07-26,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1258,P00629,David Scott,2018-07-26,M,Pancreatite Aguda,2020-09-28,,True
+1259,P00630,Kenneth Bishop,1963-02-09,M,Diverticulite,2018-01-01,2020-09-27,False
+1260,P00630,Geoffrey Clark,1963-02-09,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1261,P00631,Patricia Powell,2003-10-29,F,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1262,P00631,Darrell Beard,2003-10-29,F,Pancreatite Aguda,2020-09-28,,True
+1263,P00632,Tyrone Floyd,1995-02-07,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1264,P00632,Christine Tate,1995-02-07,M,Gastroenterite com desidratação grave,2020-09-28,,True
+1265,P00633,Alexandra Crawford,1981-05-19,F,Osteomielite,2018-01-01,2020-09-27,False
+1266,P00633,Tina Kirby,1981-05-19,F,Insuficiência Renal Aguda,2020-09-28,,True
+1267,P00634,Brittney Ramirez,1966-02-25,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1268,P00634,Michael Jackson,1966-02-25,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+1269,P00635,Julia Marshall,2014-10-02,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+1270,P00635,Debra Ponce,2014-10-02,F,Traumatismo Craniano,2020-09-28,,True
+1271,P00636,Bryan Baker,1965-09-25,M,Diverticulite,2018-01-01,2020-09-27,False
+1272,P00636,Edward Ochoa,1965-09-25,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1273,P00637,Amy Green,1940-08-03,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1274,P00637,Vicki Thomas,1940-08-03,F,Apendicite Aguda,2020-09-28,,True
+1275,P00638,Kimberly Lloyd,1935-03-20,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+1276,P00638,Thomas Smith,1935-03-20,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+1277,P00639,Margaret Mathews,1935-11-18,F,Osteomielite,2018-01-01,2020-09-27,False
+1278,P00639,Adam Archer,1935-11-18,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1279,P00640,Sarah Mann,2003-02-06,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1280,P00640,Linda Garcia,2003-02-06,F,Cirrose Hepática e suas complicações,2020-09-28,,True
+1281,P00641,April Mccormick,2018-09-01,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1282,P00641,Bryan Evans,2018-09-01,F,Osteomielite,2020-09-28,,True
+1283,P00642,Christine Benson,1962-01-05,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1284,P00642,Seth Santos,1962-01-05,F,Queimaduras Graves,2020-09-28,,True
+1285,P00643,Tina Peterson,2016-01-11,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1286,P00643,Mrs. Brittany Dyer,2016-01-11,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1287,P00644,Robert Mejia,1939-03-06,M,Asma Grave,2018-01-01,2020-09-27,False
+1288,P00644,Julie Johnson,1939-03-06,M,Gastroenterite com desidratação grave,2020-09-28,,True
+1289,P00645,Ashley Carter,2000-11-01,F,Osteomielite,2018-01-01,2020-09-27,False
+1290,P00645,Carol Peterson MD,2000-11-01,F,Osteomielite,2020-09-28,,True
+1291,P00646,Lucas Mendoza Jr.,1987-07-07,F,Osteomielite,2018-01-01,2020-09-27,False
+1292,P00646,Stephen Watts,1987-07-07,F,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1293,P00647,Bianca Roth,1996-12-30,F,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1294,P00647,Audrey Kennedy,1996-12-30,F,Arritmias Cardíacas,2020-09-28,,True
+1295,P00648,Chad Bell,2022-08-24,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1296,P00648,Brian Ingram,2022-08-24,F,Trombose Venosa Profunda,2020-09-28,,True
+1297,P00649,Zachary Howard,1941-02-12,F,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1298,P00649,Mr. Thomas Schwartz,1941-02-12,F,Insuficiência Renal Aguda,2020-09-28,,True
+1299,P00650,Angelica Mason,2015-07-17,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1300,P00650,Laura Villegas,2015-07-17,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+1301,P00651,Aaron Smith,1943-03-11,F,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+1302,P00651,Scott Campos,1943-03-11,F,Cirrose Hepática e suas complicações,2020-09-28,,True
+1303,P00652,Eric Vargas,2011-03-13,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+1304,P00652,Laura Salas,2011-03-13,F,Sepse/Infecção Generalizada,2020-09-28,,True
+1305,P00653,Bobby Gregory,2000-07-10,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1306,P00653,Gabrielle Hall,2000-07-10,M,Sepse/Infecção Generalizada,2020-09-28,,True
+1307,P00654,William Jackson,1998-11-09,F,Queimaduras Graves,2018-01-01,2020-09-27,False
+1308,P00654,Zachary Bowman,1998-11-09,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+1309,P00655,Melanie Johnson,1973-08-14,F,Osteomielite,2018-01-01,2020-09-27,False
+1310,P00655,Scott Dominguez,1973-08-14,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+1311,P00656,Matthew Brown,2009-08-12,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1312,P00656,Brandon Rodriguez,2009-08-12,F,Asma Grave,2020-09-28,,True
+1313,P00657,Jennifer Mason,1968-09-18,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1314,P00657,Kathleen Rodriguez,1968-09-18,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+1315,P00658,Kendra James,2008-06-03,M,Pneumonia,2018-01-01,2020-09-27,False
+1316,P00658,Jeffrey Cox,2008-06-03,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1317,P00659,Matthew Schmidt,1966-08-07,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1318,P00659,Mitchell Wells,1966-08-07,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1319,P00660,Drew Miller,1967-06-30,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1320,P00660,Nicole Bowers,1967-06-30,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1321,P00661,Mrs. Amanda Morgan DDS,1997-11-19,F,Asma Grave,2018-01-01,2020-09-27,False
+1322,P00661,Rachel Cain,1997-11-19,F,Doenças Autoimunes em crise,2020-09-28,,True
+1323,P00662,Wendy Jacobs,2016-06-11,F,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+1324,P00662,Kimberly Rios,2016-06-11,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+1325,P00663,Andrea Cline,1958-04-26,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1326,P00663,Patricia Shaffer,1958-04-26,M,Hemorragia Digestiva,2020-09-28,,True
+1327,P00664,Troy Everett,2020-09-06,M,Osteomielite,2018-01-01,2020-09-27,False
+1328,P00664,Wayne Silva,2020-09-06,M,Doenças Autoimunes em crise,2020-09-28,,True
+1329,P00665,Margaret West,2008-03-29,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1330,P00665,Chelsea Bates,2008-03-29,M,Queimaduras Graves,2020-09-28,,True
+1331,P00666,Caitlin Bennett,1937-10-10,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+1332,P00666,Mark Austin,1937-10-10,M,Doenças Autoimunes em crise,2020-09-28,,True
+1333,P00667,Michael Harper,1946-06-18,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1334,P00667,Michael Vaughn,1946-06-18,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+1335,P00668,Nancy Crawford,1969-06-24,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1336,P00668,Donald Ramos,1969-06-24,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1337,P00669,Wayne Miller,2018-07-01,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1338,P00669,Elizabeth Mcfarland,2018-07-01,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+1339,P00670,Tara Bennett,1942-03-03,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1340,P00670,Mr. James Mason,1942-03-03,F,Sepse/Infecção Generalizada,2020-09-28,,True
+1341,P00671,Charles Jones,1953-11-08,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1342,P00671,Leah Thomas,1953-11-08,M,Hemorragia Digestiva,2020-09-28,,True
+1343,P00672,Lauren Weber,1949-11-18,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1344,P00672,Dean Mcfarland,1949-11-18,F,Arritmias Cardíacas,2020-09-28,,True
+1345,P00673,Elizabeth Barr,1940-02-26,F,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+1346,P00673,Sean Rivera,1940-02-26,F,Queimaduras Graves,2020-09-28,,True
+1347,P00674,Wesley Oconnor,1949-03-15,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1348,P00674,Michelle Morales,1949-03-15,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1349,P00675,Dennis Freeman,1959-11-25,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1350,P00675,Amy Vincent,1959-11-25,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1351,P00676,Amanda Hutchinson,1989-11-07,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1352,P00676,Natasha Lewis,1989-11-07,M,Arritmias Cardíacas,2020-09-28,,True
+1353,P00677,Robert Jones,1959-08-16,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1354,P00677,Mary Evans,1959-08-16,M,Diverticulite,2020-09-28,,True
+1355,P00678,Ashley Herman,1998-05-08,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1356,P00678,Sarah Hooper,1998-05-08,M,Embolia Pulmonar,2020-09-28,,True
+1357,P00679,Mrs. Mary Smith,2014-11-22,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1358,P00679,Andrew Grant,2014-11-22,F,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1359,P00680,Angela Maldonado,1954-11-11,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1360,P00680,Deborah Nash,1954-11-11,F,Pneumonia,2020-09-28,,True
+1361,P00681,Colton Warner,1974-11-05,M,Asma Grave,2018-01-01,2020-09-27,False
+1362,P00681,Jeffrey Ford,1974-11-05,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1363,P00682,Shelly West PhD,2017-12-26,F,Osteomielite,2018-01-01,2020-09-27,False
+1364,P00682,Stephen Griffith,2017-12-26,F,Apendicite Aguda,2020-09-28,,True
+1365,P00683,Nicholas Horton,1953-02-02,F,Queimaduras Graves,2018-01-01,2020-09-27,False
+1366,P00683,Charles Powell,1953-02-02,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+1367,P00684,Gina Mcintosh,1953-09-24,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1368,P00684,Emily Price,1953-09-24,F,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1369,P00685,Donna Brennan,2012-03-20,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1370,P00685,Jared Glenn,2012-03-20,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1371,P00686,Sarah Moore,2016-11-16,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+1372,P00686,Amy Hoover,2016-11-16,M,Gastroenterite com desidratação grave,2020-09-28,,True
+1373,P00687,James Hernandez,1951-09-23,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1374,P00687,Janet Barton,1951-09-23,F,Sepse/Infecção Generalizada,2020-09-28,,True
+1375,P00688,Daniel Warren,2020-06-02,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1376,P00688,Brandon York,2020-06-02,F,Asma Grave,2020-09-28,,True
+1377,P00689,Anna Baldwin,2019-10-31,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1378,P00689,Sandra Norman,2019-10-31,F,Diverticulite,2020-09-28,,True
+1379,P00690,Monica Moore,2004-07-21,M,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1380,P00690,Jasmine Hernandez,2004-07-21,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1381,P00691,Jamie Scott,2023-04-17,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1382,P00691,Melissa Sandoval DDS,2023-04-17,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1383,P00692,John Lowe,1962-06-07,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1384,P00692,Kayla Mejia,1962-06-07,F,Trombose Venosa Profunda,2020-09-28,,True
+1385,P00693,William Odom,2006-01-15,F,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1386,P00693,Ryan Smith,2006-01-15,F,Traumatismo Craniano,2020-09-28,,True
+1387,P00694,Shane Johnson,1985-04-12,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1388,P00694,Michael Kelly,1985-04-12,F,Hemorragia Digestiva,2020-09-28,,True
+1389,P00695,Joseph Perez,1997-03-13,F,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+1390,P00695,Maria Chen,1997-03-13,F,Hemorragia Digestiva,2020-09-28,,True
+1391,P00696,Joy Harmon,1953-03-12,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1392,P00696,Nicole Fernandez,1953-03-12,F,Doenças Autoimunes em crise,2020-09-28,,True
+1393,P00697,Christine Pacheco,1967-05-16,M,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1394,P00697,Antonio Jensen,1967-05-16,M,Osteomielite,2020-09-28,,True
+1395,P00698,Edwin Caldwell,1991-09-08,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1396,P00698,Michelle Brown,1991-09-08,F,Pneumonia,2020-09-28,,True
+1397,P00699,Maureen Martinez,2011-02-24,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+1398,P00699,John Ford,2011-02-24,M,Embolia Pulmonar,2020-09-28,,True
+1399,P00700,Michael Snyder,2024-04-28,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1400,P00700,Angela Rivera,2024-04-28,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1401,P00701,Jonathan Hester,2017-03-30,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+1402,P00701,Keith Gillespie,2017-03-30,M,Trombose Venosa Profunda,2020-09-28,,True
+1403,P00702,Eric Evans,1948-10-30,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1404,P00702,Sherri Garcia,1948-10-30,M,Insuficiência Renal Aguda,2020-09-28,,True
+1405,P00703,Robert Nelson,2023-05-02,F,Asma Grave,2018-01-01,2020-09-27,False
+1406,P00703,Larry Duncan,2023-05-02,F,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1407,P00704,Adrian Wilson,1981-12-26,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1408,P00704,Douglas Tran,1981-12-26,M,Doenças Autoimunes em crise,2020-09-28,,True
+1409,P00705,Eric Green,1943-07-01,M,Pneumonia,2018-01-01,2020-09-27,False
+1410,P00705,Valerie Jenkins,1943-07-01,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1411,P00706,Brian Byrd DVM,1961-04-09,M,Asma Grave,2018-01-01,2020-09-27,False
+1412,P00706,Cindy Cooley,1961-04-09,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+1413,P00707,Marcus Cantu,1946-11-08,M,Diverticulite,2018-01-01,2020-09-27,False
+1414,P00707,Tina Norton,1946-11-08,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+1415,P00708,Danielle Branch,2023-12-07,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1416,P00708,David Johnson,2023-12-07,M,Sepse/Infecção Generalizada,2020-09-28,,True
+1417,P00709,Karen Mcguire,2010-04-23,F,Asma Grave,2018-01-01,2020-09-27,False
+1418,P00709,Michael Burnett,2010-04-23,F,Trombose Venosa Profunda,2020-09-28,,True
+1419,P00710,Lori Wilson,1952-06-24,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1420,P00710,Phyllis Carr,1952-06-24,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1421,P00711,Keith Garcia,2011-01-12,F,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+1422,P00711,Scott Rose,2011-01-12,F,Apendicite Aguda,2020-09-28,,True
+1423,P00712,Jessica Fleming,1972-09-26,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1424,P00712,Eileen Dean,1972-09-26,M,Meningite e Encefalite,2020-09-28,,True
+1425,P00713,Daniel Shaw,2012-09-02,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1426,P00713,Abigail Alvarez,2012-09-02,M,Queimaduras Graves,2020-09-28,,True
+1427,P00714,Robin Elliott,2014-10-06,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1428,P00714,Emily Powers,2014-10-06,F,Gastroenterite com desidratação grave,2020-09-28,,True
+1429,P00715,Laura Lee,1986-11-06,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1430,P00715,Amy Gomez,1986-11-06,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1431,P00716,John Gonzalez,1973-05-05,M,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1432,P00716,Scott Smith,1973-05-05,M,Meningite e Encefalite,2020-09-28,,True
+1433,P00717,Barry White,1935-01-27,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+1434,P00717,Laura Clark,1935-01-27,M,Doenças Autoimunes em crise,2020-09-28,,True
+1435,P00718,John Cooper,1936-10-17,F,Queimaduras Graves,2018-01-01,2020-09-27,False
+1436,P00718,Melissa Weaver,1936-10-17,F,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+1437,P00719,Katie Roberts,2010-10-26,F,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+1438,P00719,Ruth Garner,2010-10-26,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+1439,P00720,Andrea Butler,2021-08-30,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1440,P00720,Desiree Moran,2021-08-30,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1441,P00721,Mario Baker,2015-04-06,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1442,P00721,Bradley Martinez,2015-04-06,F,Diverticulite,2020-09-28,,True
+1443,P00722,Karen Wallace,1935-06-18,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1444,P00722,Alexander Gonzales,1935-06-18,M,Apendicite Aguda,2020-09-28,,True
+1445,P00723,Amy Marshall,2022-08-11,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1446,P00723,Jeremy Brown,2022-08-11,M,Cirrose Hepática e suas complicações,2020-09-28,,True
+1447,P00724,Sheila Baker,1997-01-22,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1448,P00724,Kurt Moses,1997-01-22,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1449,P00725,Jenna Liu,1995-07-07,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1450,P00725,Jason Murray,1995-07-07,M,Meningite e Encefalite,2020-09-28,,True
+1451,P00726,Douglas Moore,1982-09-04,M,Asma Grave,2018-01-01,2020-09-27,False
+1452,P00726,Tracy Boyd,1982-09-04,M,Hemorragia Digestiva,2020-09-28,,True
+1453,P00727,Randy Nguyen,2015-01-27,F,Pneumonia,2018-01-01,2020-09-27,False
+1454,P00727,John Riley,2015-01-27,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+1455,P00728,Justin Gardner,1963-12-21,F,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+1456,P00728,Brenda Stephenson,1963-12-21,F,Traumatismo Craniano,2020-09-28,,True
+1457,P00729,Lindsey Moore,1980-07-05,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1458,P00729,Robert Walters,1980-07-05,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1459,P00730,Valerie Griffith,2024-09-20,F,Queimaduras Graves,2018-01-01,2020-09-27,False
+1460,P00730,Erin Mcmahon,2024-09-20,F,Doenças Autoimunes em crise,2020-09-28,,True
+1461,P00731,Sarah Morales,2016-07-31,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1462,P00731,Erica Delgado,2016-07-31,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1463,P00732,Thomas Hill,1996-08-14,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1464,P00732,Timothy Brooks,1996-08-14,F,Apendicite Aguda,2020-09-28,,True
+1465,P00733,Michael Perkins,1935-11-10,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+1466,P00733,David Rhodes,1935-11-10,F,Meningite e Encefalite,2020-09-28,,True
+1467,P00734,Melissa Humphrey,1967-01-01,F,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1468,P00734,Lisa Smith,1967-01-01,F,Traumatismo Craniano,2020-09-28,,True
+1469,P00735,Ashley Hudson,1963-04-04,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1470,P00735,Alexis Benitez,1963-04-04,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+1471,P00736,Wendy Navarro,2013-07-19,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1472,P00736,Amanda Garcia,2013-07-19,F,Arritmias Cardíacas,2020-09-28,,True
+1473,P00737,Matthew Ellis MD,2017-11-16,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1474,P00737,Amy Collins,2017-11-16,F,Sepse/Infecção Generalizada,2020-09-28,,True
+1475,P00738,Maria Gay,2022-12-08,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1476,P00738,Ryan Duarte,2022-12-08,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1477,P00739,David Hill,1981-11-27,M,Osteomielite,2018-01-01,2020-09-27,False
+1478,P00739,Summer Chung,1981-11-27,M,Asma Grave,2020-09-28,,True
+1479,P00740,Donna Hinton,2012-11-07,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1480,P00740,Jordan Clark,2012-11-07,F,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1481,P00741,Henry Harris,2018-09-10,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1482,P00741,Natasha Allison,2018-09-10,F,Cirrose Hepática e suas complicações,2020-09-28,,True
+1483,P00742,Russell Aguirre,1991-11-01,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1484,P00742,Michael Gilbert,1991-11-01,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1485,P00743,Veronica Sanford,1963-05-08,M,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+1486,P00743,Stuart Brown,1963-05-08,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1487,P00744,Nicholas Alvarez,2023-07-26,M,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1488,P00744,Megan Snyder,2023-07-26,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+1489,P00745,Sarah Price,1982-08-28,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1490,P00745,Barbara Watkins,1982-08-28,F,Apendicite Aguda,2020-09-28,,True
+1491,P00746,Steven Gilmore,1962-02-04,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1492,P00746,Dylan Bishop,1962-02-04,M,Cirrose Hepática e suas complicações,2020-09-28,,True
+1493,P00747,Brandi Rosario,2004-11-23,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1494,P00747,Molly Nguyen,2004-11-23,M,Arritmias Cardíacas,2020-09-28,,True
+1495,P00748,Jose Hutchinson,1941-06-23,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1496,P00748,Sonya Hoover,1941-06-23,F,Hemorragia Digestiva,2020-09-28,,True
+1497,P00749,Amy Long,2010-04-08,F,Osteomielite,2018-01-01,2020-09-27,False
+1498,P00749,Adrian Hall,2010-04-08,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+1499,P00750,Aaron Singh,1960-10-27,M,Osteomielite,2018-01-01,2020-09-27,False
+1500,P00750,David Walker,1960-10-27,M,Doenças Autoimunes em crise,2020-09-28,,True
+1501,P00751,Jessica Sanchez,2007-05-02,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1502,P00751,Kristen Swanson,2007-05-02,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1503,P00752,Kristi Peterson,1969-10-19,F,Asma Grave,2018-01-01,2020-09-27,False
+1504,P00752,Guy Johnson,1969-10-19,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1505,P00753,Kurt Lawson,1943-07-11,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+1506,P00753,Jessica Scott,1943-07-11,M,Sepse/Infecção Generalizada,2020-09-28,,True
+1507,P00754,Carmen Hill,1984-07-20,F,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1508,P00754,Robert Bowman,1984-07-20,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1509,P00755,John Scott,1960-03-27,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1510,P00755,Donald Sawyer,1960-03-27,F,Pneumonia,2020-09-28,,True
+1511,P00756,Richard Miller DDS,1955-03-29,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1512,P00756,Brian Weaver,1955-03-29,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1513,P00757,Mark Sanchez,2005-03-31,F,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1514,P00757,Richard Ellison,2005-03-31,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1515,P00758,Mary Nguyen DVM,1992-06-12,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+1516,P00758,Virginia Wolf,1992-06-12,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1517,P00759,Andrew Armstrong,1985-03-20,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+1518,P00759,Leslie Hunter,1985-03-20,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1519,P00760,Frank Garza,1947-11-18,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1520,P00760,Matthew Lopez,1947-11-18,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1521,P00761,Debbie Chan DVM,1955-01-13,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1522,P00761,Charlotte Burton,1955-01-13,F,Osteomielite,2020-09-28,,True
+1523,P00762,Corey Drake,1938-04-05,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1524,P00762,Susan Hayes,1938-04-05,F,Osteomielite,2020-09-28,,True
+1525,P00763,Danielle Schmidt,1945-01-13,M,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+1526,P00763,Stephanie Maynard,1945-01-13,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+1527,P00764,Lindsay Barajas,1982-08-05,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1528,P00764,David Lowery,1982-08-05,M,Apendicite Aguda,2020-09-28,,True
+1529,P00765,Adam Morris,2011-02-22,F,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+1530,P00765,Eric Schwartz,2011-02-22,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1531,P00766,Dawn Lane,1942-02-12,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+1532,P00766,Michael Hall,1942-02-12,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+1533,P00767,Dawn Bauer,2011-05-11,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1534,P00767,Michele Lucas,2011-05-11,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+1535,P00768,Dr. Samantha Brady,1999-03-30,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1536,P00768,Kimberly Allen,1999-03-30,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1537,P00769,Rebecca Jones,1952-12-18,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+1538,P00769,Katherine Johnson,1952-12-18,M,Diverticulite,2020-09-28,,True
+1539,P00770,James Hudson,1977-03-22,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1540,P00770,Anna Duran,1977-03-22,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1541,P00771,Nicholas Bennett,1939-04-18,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1542,P00771,Beth Allen,1939-04-18,M,Diverticulite,2020-09-28,,True
+1543,P00772,Carol Vasquez,1948-07-19,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+1544,P00772,Rebecca Boyd,1948-07-19,M,Sepse/Infecção Generalizada,2020-09-28,,True
+1545,P00773,Melissa Guerrero,1948-09-29,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+1546,P00773,Mark Davis,1948-09-29,F,Diverticulite,2020-09-28,,True
+1547,P00774,Preston Foley,2014-12-15,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1548,P00774,Sandy Flynn,2014-12-15,M,Sepse/Infecção Generalizada,2020-09-28,,True
+1549,P00775,Gary Walker,2001-12-24,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1550,P00775,Juan Roberts,2001-12-24,F,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1551,P00776,Katrina Sanchez,1953-06-10,F,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1552,P00776,Breanna Rogers,1953-06-10,F,Queimaduras Graves,2020-09-28,,True
+1553,P00777,Patricia Martin,1965-11-06,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+1554,P00777,Jerome Liu,1965-11-06,F,Gastroenterite com desidratação grave,2020-09-28,,True
+1555,P00778,Tracie Jackson,1962-01-19,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1556,P00778,David Jackson,1962-01-19,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+1557,P00779,Jordan Cisneros,1987-09-09,M,Osteomielite,2018-01-01,2020-09-27,False
+1558,P00779,Alyssa Andrade,1987-09-09,M,Diverticulite,2020-09-28,,True
+1559,P00780,Brian Nelson,1961-02-09,F,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1560,P00780,Marissa Snyder,1961-02-09,F,Insuficiência Renal Aguda,2020-09-28,,True
+1561,P00781,Stephanie Murray,1983-05-03,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1562,P00781,Rebecca Fry,1983-05-03,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1563,P00782,Shannon Ayala,2009-07-02,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1564,P00782,Brooke Banks,2009-07-02,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+1565,P00783,Christopher Reid,1961-02-09,F,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1566,P00783,Timothy Wilkinson,1961-02-09,F,Pneumonia,2020-09-28,,True
+1567,P00784,Christopher Edwards,1988-05-27,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1568,P00784,Christine Fox,1988-05-27,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1569,P00785,Kimberly Archer,1938-07-04,F,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1570,P00785,John West,1938-07-04,F,Embolia Pulmonar,2020-09-28,,True
+1571,P00786,Eric Mahoney,1993-12-10,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1572,P00786,Gary Williams,1993-12-10,M,Diverticulite,2020-09-28,,True
+1573,P00787,Richard Skinner,2000-09-03,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+1574,P00787,Cheryl Green,2000-09-03,M,Cirrose Hepática e suas complicações,2020-09-28,,True
+1575,P00788,Julie Ramos,2011-01-22,M,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1576,P00788,Jared Reilly,2011-01-22,M,Pneumonia,2020-09-28,,True
+1577,P00789,Kelly Crosby,1993-04-25,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1578,P00789,Tara Hogan,1993-04-25,M,Insuficiência Renal Aguda,2020-09-28,,True
+1579,P00790,Richard Meza,1985-12-16,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1580,P00790,Erica Turner,1985-12-16,M,Hemorragia Digestiva,2020-09-28,,True
+1581,P00791,Vicki Newman,2014-09-20,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1582,P00791,Alexandra Lopez,2014-09-20,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1583,P00792,Nicole Mason,2020-04-16,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1584,P00792,Mallory Smith,2020-04-16,M,Arritmias Cardíacas,2020-09-28,,True
+1585,P00793,Samantha Schaefer,1942-03-21,M,Osteomielite,2018-01-01,2020-09-27,False
+1586,P00793,Suzanne Hensley,1942-03-21,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1587,P00794,Natalie Bradley,1950-07-17,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1588,P00794,Danielle Wells,1950-07-17,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1589,P00795,Angela Whitaker,1949-10-29,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1590,P00795,Matthew Curtis DDS,1949-10-29,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1591,P00796,Erica Bailey,2001-06-24,F,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1592,P00796,Paul Rios,2001-06-24,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+1593,P00797,Derek Maldonado,1951-08-15,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+1594,P00797,Mrs. Jennifer Tyler MD,1951-08-15,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1595,P00798,Melinda Harvey,1938-11-26,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1596,P00798,Suzanne Mckinney,1938-11-26,M,Osteomielite,2020-09-28,,True
+1597,P00799,Timothy Maddox,1964-09-24,M,Osteomielite,2018-01-01,2020-09-27,False
+1598,P00799,Lisa Rubio,1964-09-24,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1599,P00800,Mark Valdez,1965-04-20,M,Osteomielite,2018-01-01,2020-09-27,False
+1600,P00800,Rhonda Baker,1965-04-20,M,Pneumonia,2020-09-28,,True
+1601,P00801,Vanessa Morgan,2022-12-03,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1602,P00801,Robert Zavala,2022-12-03,F,Hemorragia Digestiva,2020-09-28,,True
+1603,P00802,Ashley Preston,1988-09-02,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1604,P00802,Heather Dennis,1988-09-02,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1605,P00803,Christy Hughes,1998-09-07,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1606,P00803,Matthew Massey,1998-09-07,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+1607,P00804,Michelle Whitehead,1962-12-03,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1608,P00804,Logan Sosa,1962-12-03,M,Sepse/Infecção Generalizada,2020-09-28,,True
+1609,P00805,Charles Walker,2012-02-14,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1610,P00805,Ronald Smith,2012-02-14,F,Osteomielite,2020-09-28,,True
+1611,P00806,Joseph Garcia PhD,1941-06-18,F,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1612,P00806,Rick King,1941-06-18,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1613,P00807,Richard Osborne,2005-04-27,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1614,P00807,Angela Martin,2005-04-27,F,Sepse/Infecção Generalizada,2020-09-28,,True
+1615,P00808,Carlos Mcgrath,1987-04-29,M,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1616,P00808,Elizabeth Bennett,1987-04-29,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1617,P00809,Jacob Nelson,1958-11-13,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1618,P00809,Suzanne Bass,1958-11-13,M,Insuficiência Renal Aguda,2020-09-28,,True
+1619,P00810,Matthew Estrada,2014-02-23,F,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+1620,P00810,Philip Sims,2014-02-23,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1621,P00811,Samuel Mckee,1964-08-10,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1622,P00811,Kyle Arnold,1964-08-10,M,Diverticulite,2020-09-28,,True
+1623,P00812,Christina Butler,1939-12-30,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1624,P00812,Mr. Kyle Lee,1939-12-30,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+1625,P00813,Daniel Moore,1964-03-09,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1626,P00813,Drew Stanley,1964-03-09,M,Pancreatite Aguda,2020-09-28,,True
+1627,P00814,Raymond Walker,1984-06-23,F,Diverticulite,2018-01-01,2020-09-27,False
+1628,P00814,John Lewis,1984-06-23,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1629,P00815,Stephanie Martinez,1992-06-03,F,Queimaduras Graves,2018-01-01,2020-09-27,False
+1630,P00815,Marc Wright,1992-06-03,F,Sepse/Infecção Generalizada,2020-09-28,,True
+1631,P00816,Crystal Nielsen,1936-10-28,F,Asma Grave,2018-01-01,2020-09-27,False
+1632,P00816,Dr. Sheila Smith,1936-10-28,F,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1633,P00817,Lori Simmons,1974-03-31,F,Diverticulite,2018-01-01,2020-09-27,False
+1634,P00817,Jeffrey Moreno,1974-03-31,F,Arritmias Cardíacas,2020-09-28,,True
+1635,P00818,Francisco Smith,1988-10-23,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1636,P00818,Matthew Olson,1988-10-23,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+1637,P00819,Johnny Contreras,2020-03-26,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1638,P00819,Stacie Montes,2020-03-26,F,Apendicite Aguda,2020-09-28,,True
+1639,P00820,Willie Miller,1960-11-16,F,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+1640,P00820,Erica Crawford,1960-11-16,F,Diverticulite,2020-09-28,,True
+1641,P00821,Susan Cabrera,1998-06-12,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+1642,P00821,Shawn Johnston,1998-06-12,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1643,P00822,Vanessa Garcia,2022-02-07,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1644,P00822,Mr. Jason Blake,2022-02-07,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+1645,P00823,Sandy Burgess,2023-06-22,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1646,P00823,Vanessa Jones,2023-06-22,M,Insuficiência Renal Aguda,2020-09-28,,True
+1647,P00824,John Hamilton,1948-03-05,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1648,P00824,Amy Cobb,1948-03-05,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1649,P00825,Emily Gonzalez,1973-01-19,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1650,P00825,Emily Robinson,1973-01-19,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1651,P00826,Karen Ray,1948-10-08,F,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1652,P00826,Jessica Walker,1948-10-08,F,Cirrose Hepática e suas complicações,2020-09-28,,True
+1653,P00827,Jeremy Valencia,1976-06-14,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1654,P00827,Joshua Atkins,1976-06-14,M,Arritmias Cardíacas,2020-09-28,,True
+1655,P00828,Christine Hanson,1939-01-03,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1656,P00828,Daniel Chen,1939-01-03,F,Trombose Venosa Profunda,2020-09-28,,True
+1657,P00829,Jordan Barker,1973-07-27,F,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1658,P00829,Mariah Johnson,1973-07-27,F,Embolia Pulmonar,2020-09-28,,True
+1659,P00830,David Mendoza,1974-04-12,M,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+1660,P00830,Michael Haynes,1974-04-12,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1661,P00831,Philip Richards,1970-03-14,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1662,P00831,Abigail Sheppard,1970-03-14,M,Queimaduras Graves,2020-09-28,,True
+1663,P00832,Amber Weber,1974-01-03,M,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1664,P00832,Michelle Schultz,1974-01-03,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1665,P00833,Miguel Mendoza,1963-03-10,M,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1666,P00833,David Richmond,1963-03-10,M,Queimaduras Graves,2020-09-28,,True
+1667,P00834,Justin Coffey Jr.,1992-12-06,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1668,P00834,Janet Robinson,1992-12-06,M,Insuficiência Renal Aguda,2020-09-28,,True
+1669,P00835,Christina Smith,2004-07-31,M,Osteomielite,2018-01-01,2020-09-27,False
+1670,P00835,James Ramirez,2004-07-31,M,Gastroenterite com desidratação grave,2020-09-28,,True
+1671,P00836,Kristen Wheeler,1967-10-24,M,Osteomielite,2018-01-01,2020-09-27,False
+1672,P00836,David Hooper,1967-10-24,M,Trombose Venosa Profunda,2020-09-28,,True
+1673,P00837,Lisa Patel,1995-12-30,F,Pneumonia,2018-01-01,2020-09-27,False
+1674,P00837,Kelsey Armstrong,1995-12-30,F,Queimaduras Graves,2020-09-28,,True
+1675,P00838,Jeffrey Patton,2020-02-07,F,Osteomielite,2018-01-01,2020-09-27,False
+1676,P00838,Heather Kelly,2020-02-07,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1677,P00839,David Williams,1960-09-29,F,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1678,P00839,Alicia Mack,1960-09-29,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1679,P00840,Melanie Sloan,1987-01-19,F,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1680,P00840,Carrie Mcdonald,1987-01-19,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+1681,P00841,Angela Wilson,1943-03-24,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+1682,P00841,Madison Williams,1943-03-24,F,Insuficiência Renal Aguda,2020-09-28,,True
+1683,P00842,Zachary Ellis,2007-08-31,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1684,P00842,Anita Hernandez,2007-08-31,F,Pneumonia,2020-09-28,,True
+1685,P00843,Tonya Floyd,1971-09-30,F,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+1686,P00843,Andrew Edwards,1971-09-30,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1687,P00844,Kristen Williams,1997-01-06,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+1688,P00844,Joseph Carter,1997-01-06,F,Sepse/Infecção Generalizada,2020-09-28,,True
+1689,P00845,Latoya Lee,1965-01-08,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1690,P00845,Lucas Brown,1965-01-08,F,Queimaduras Graves,2020-09-28,,True
+1691,P00846,Alexandria Griffin,1970-11-05,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1692,P00846,Ashley Moran,1970-11-05,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1693,P00847,Mr. Johnny Cook,2022-04-08,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1694,P00847,Nicole Tyler,2022-04-08,M,Cirrose Hepática e suas complicações,2020-09-28,,True
+1695,P00848,Christine Martin,2006-01-14,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1696,P00848,Raymond Ward,2006-01-14,M,Gastroenterite com desidratação grave,2020-09-28,,True
+1697,P00849,Jason King,1947-11-24,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1698,P00849,Marcia Roberts,1947-11-24,F,Hemorragia Digestiva,2020-09-28,,True
+1699,P00850,Scott Parker,1987-10-26,F,Asma Grave,2018-01-01,2020-09-27,False
+1700,P00850,Michael Thompson,1987-10-26,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1701,P00851,Nicole Savage,1994-08-13,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+1702,P00851,Haley Bryant,1994-08-13,M,Trombose Venosa Profunda,2020-09-28,,True
+1703,P00852,Sarah Lin,1940-02-05,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+1704,P00852,Brian Boone,1940-02-05,M,Doenças Autoimunes em crise,2020-09-28,,True
+1705,P00853,Ann Day,1961-09-14,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1706,P00853,Isaiah Allen,1961-09-14,F,Arritmias Cardíacas,2020-09-28,,True
+1707,P00854,Marvin Vincent,1970-08-01,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+1708,P00854,Jose Walker,1970-08-01,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1709,P00855,Donna Fritz,1948-02-14,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1710,P00855,Judy Colon,1948-02-14,M,Hemorragia Digestiva,2020-09-28,,True
+1711,P00856,Ariana Warren,1992-03-30,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1712,P00856,Luis Bryant,1992-03-30,M,Queimaduras Graves,2020-09-28,,True
+1713,P00857,Nicholas Washington,2015-01-14,F,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1714,P00857,Robin Greene,2015-01-14,F,Apendicite Aguda,2020-09-28,,True
+1715,P00858,Manuel Watkins,1956-04-27,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1716,P00858,Wayne Knight,1956-04-27,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1717,P00859,Jason King,1947-09-02,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1718,P00859,Margaret Porter,1947-09-02,M,Pancreatite Aguda,2020-09-28,,True
+1719,P00860,Matthew Walter,2013-06-15,M,Acidentes de Trânsito - Politrauma,2018-01-01,2020-09-27,False
+1720,P00860,Cheyenne Dennis,2013-06-15,M,Meningite e Encefalite,2020-09-28,,True
+1721,P00861,Kevin Tapia,1968-04-24,F,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1722,P00861,Rachel Hall,1968-04-24,F,Meningite e Encefalite,2020-09-28,,True
+1723,P00862,Andrew Humphrey,1972-03-17,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1724,P00862,Rebecca Scott,1972-03-17,M,Embolia Pulmonar,2020-09-28,,True
+1725,P00863,Carlos Hayes,1962-03-18,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+1726,P00863,Jennifer Montoya,1962-03-18,M,Cirrose Hepática e suas complicações,2020-09-28,,True
+1727,P00864,Debra Harvey,1971-05-09,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1728,P00864,Jessica Martinez,1971-05-09,M,Pneumonia,2020-09-28,,True
+1729,P00865,Jeffrey Cline,1985-12-28,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1730,P00865,Rebekah Moreno,1985-12-28,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1731,P00866,Elizabeth Cooper,1975-11-03,M,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1732,P00866,Donna Matthews,1975-11-03,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+1733,P00867,Abigail Reyes,1960-11-15,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1734,P00867,Jean Lopez,1960-11-15,F,Pneumonia,2020-09-28,,True
+1735,P00868,Michael Gordon,1989-02-28,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1736,P00868,Jennifer Jones,1989-02-28,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1737,P00869,Jennifer Owens,1983-05-13,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1738,P00869,Jose Larsen,1983-05-13,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+1739,P00870,Juan Johnson,1941-06-28,F,Osteomielite,2018-01-01,2020-09-27,False
+1740,P00870,Benjamin Warner,1941-06-28,F,Asma Grave,2020-09-28,,True
+1741,P00871,Christopher Wheeler,1943-10-28,F,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+1742,P00871,Michael Miller,1943-10-28,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1743,P00872,Logan Gordon,1972-06-15,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1744,P00872,Kaitlyn Cole,1972-06-15,M,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+1745,P00873,Julie Francis,2006-11-24,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1746,P00873,Mary Burke,2006-11-24,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+1747,P00874,Laura Daniels,1963-01-04,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+1748,P00874,Kayla Clarke,1963-01-04,F,Pneumonia,2020-09-28,,True
+1749,P00875,Paul Yu,2015-03-26,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+1750,P00875,Mike Johnson,2015-03-26,M,Trombose Venosa Profunda,2020-09-28,,True
+1751,P00876,Kelsey Sanders,2010-09-08,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1752,P00876,David Silva,2010-09-08,M,Gastroenterite com desidratação grave,2020-09-28,,True
+1753,P00877,Rodney Stevens,1958-02-13,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1754,P00877,Ashley Bruce,1958-02-13,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+1755,P00878,Joseph White,1948-07-25,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1756,P00878,Monique Solomon,1948-07-25,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1757,P00879,Amy Johnson,1964-02-21,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+1758,P00879,Victoria Bryant,1964-02-21,F,Sepse/Infecção Generalizada,2020-09-28,,True
+1759,P00880,Maria Peterson,1978-06-22,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+1760,P00880,Pamela Obrien,1978-06-22,M,Sepse/Infecção Generalizada,2020-09-28,,True
+1761,P00881,Nathaniel Rodriguez,2016-11-22,F,Osteomielite,2018-01-01,2020-09-27,False
+1762,P00881,Jeffrey Howell,2016-11-22,F,Arritmias Cardíacas,2020-09-28,,True
+1763,P00882,Jordan Mason,1979-10-18,M,Osteomielite,2018-01-01,2020-09-27,False
+1764,P00882,Megan Sullivan,1979-10-18,M,Queimaduras Graves,2020-09-28,,True
+1765,P00883,Stephanie Reynolds,1937-07-12,F,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1766,P00883,Yolanda Kline,1937-07-12,F,Embolia Pulmonar,2020-09-28,,True
+1767,P00884,Sherri White,1963-07-28,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1768,P00884,Maria Harris,1963-07-28,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1769,P00885,Joshua Perry,2011-03-01,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1770,P00885,Lucas Long,2011-03-01,F,Pneumonia,2020-09-28,,True
+1771,P00886,Rachel Wells,2007-06-10,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1772,P00886,Lisa Atkins,2007-06-10,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+1773,P00887,Xavier Anderson,1988-02-25,F,Osteomielite,2018-01-01,2020-09-27,False
+1774,P00887,Dean Walters,1988-02-25,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1775,P00888,Thomas Vang,1994-10-24,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1776,P00888,Andrea Henry,1994-10-24,M,Arritmias Cardíacas,2020-09-28,,True
+1777,P00889,Shawn Cruz,1963-07-14,F,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1778,P00889,Robert Carpenter,1963-07-14,F,Cirrose Hepática e suas complicações,2020-09-28,,True
+1779,P00890,Meghan Payne,1998-12-24,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+1780,P00890,Robert Brown,1998-12-24,M,Queimaduras Graves,2020-09-28,,True
+1781,P00891,Jeffrey Townsend,2024-06-20,F,Embolia Pulmonar,2018-01-01,2020-09-27,False
+1782,P00891,Brian Roberts,2024-06-20,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+1783,P00892,Thomas Dunn,1982-12-05,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2018-01-01,2020-09-27,False
+1784,P00892,Shannon Baker,1982-12-05,F,Asma Grave,2020-09-28,,True
+1785,P00893,Marilyn Gray,2000-04-07,F,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+1786,P00893,John Murray,2000-04-07,F,Arritmias Cardíacas,2020-09-28,,True
+1787,P00894,Michelle Garcia,1953-03-05,M,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1788,P00894,Douglas Martinez,1953-03-05,M,Osteomielite,2020-09-28,,True
+1789,P00895,James Torres,2022-09-11,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1790,P00895,Jeffrey Hines,2022-09-11,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+1791,P00896,Jody Griffin,1947-02-14,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1792,P00896,Brian Blevins,1947-02-14,M,Doenças Autoimunes em crise,2020-09-28,,True
+1793,P00897,Tracy Palmer,1953-07-05,M,Pneumonia,2018-01-01,2020-09-27,False
+1794,P00897,Brian Beck,1953-07-05,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1795,P00898,Sonya Taylor,1936-02-12,F,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1796,P00898,Ryan Franco,1936-02-12,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+1797,P00899,Jessica Allen,1964-06-02,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1798,P00899,Justin Moreno,1964-06-02,F,Asma Grave,2020-09-28,,True
+1799,P00900,Paul Mckay,2016-09-07,M,Câncer - Quimioterapia/Complicações,2018-01-01,2020-09-27,False
+1800,P00900,Martin Torres,2016-09-07,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1801,P00901,Kimberly Gonzales,1940-02-07,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1802,P00901,Janet Colon,1940-02-07,M,Osteomielite,2020-09-28,,True
+1803,P00902,Nathan Cummings,1962-08-09,M,Pneumonia,2018-01-01,2020-09-27,False
+1804,P00902,Ann Johnson,1962-08-09,M,Traumatismo Craniano,2020-09-28,,True
+1805,P00903,Samantha Wise,2008-10-01,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1806,P00903,Clinton Brown,2008-10-01,M,Insuficiência Renal Aguda,2020-09-28,,True
+1807,P00904,Scott Moreno,1984-03-04,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+1808,P00904,Barbara Dennis,1984-03-04,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1809,P00905,Brooke Mcintyre,1982-02-26,M,Insuficiência Renal Aguda,2018-01-01,2020-09-27,False
+1810,P00905,Lori Prince,1982-02-26,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1811,P00906,Marissa Johnson,2008-05-01,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1812,P00906,Gene Pena,2008-05-01,M,Meningite e Encefalite,2020-09-28,,True
+1813,P00907,Ashley Brooks,2007-02-17,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1814,P00907,Carly Nichols,2007-02-17,F,Infarto Agudo do Miocárdio,2020-09-28,,True
+1815,P00908,Nancy Horn,1976-09-19,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1816,P00908,Sarah Greer,1976-09-19,M,Meningite e Encefalite,2020-09-28,,True
+1817,P00909,Isaiah Palmer,1947-04-25,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1818,P00909,Brenda Day,1947-04-25,M,Pancreatite Aguda,2020-09-28,,True
+1819,P00910,Elizabeth Kim,1988-09-24,M,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1820,P00910,Shawn Knapp,1988-09-24,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1821,P00911,Amy Rice,1971-06-28,F,Asma Grave,2018-01-01,2020-09-27,False
+1822,P00911,Charles Rogers,1971-06-28,F,Trombose Venosa Profunda,2020-09-28,,True
+1823,P00912,Stephen Baker,2013-05-05,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1824,P00912,Jenna Tate,2013-05-05,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1825,P00913,Brendan Clark,1999-04-15,F,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1826,P00913,Donna Kennedy,1999-04-15,F,Sepse/Infecção Generalizada,2020-09-28,,True
+1827,P00914,Lisa Smith,1943-12-14,M,Pneumonia,2018-01-01,2020-09-27,False
+1828,P00914,Stephanie Murphy,1943-12-14,M,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+1829,P00915,Robert Sullivan,1956-12-25,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1830,P00915,Kevin Johnson,1956-12-25,F,Queimaduras Graves,2020-09-28,,True
+1831,P00916,Linda Oneal,1953-05-29,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1832,P00916,Donald Cortez,1953-05-29,F,Embolia Pulmonar,2020-09-28,,True
+1833,P00917,Amber Williamson,2013-03-17,M,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+1834,P00917,Kelly Long,2013-03-17,M,Embolia Pulmonar,2020-09-28,,True
+1835,P00918,Jessica Roman,1937-01-12,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1836,P00918,Martha Riley,1937-01-12,M,Gastroenterite com desidratação grave,2020-09-28,,True
+1837,P00919,Mary Hoffman,1955-02-26,M,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1838,P00919,Tiffany Pham,1955-02-26,M,Insuficiência Renal Aguda,2020-09-28,,True
+1839,P00920,Robin Larson,1990-11-08,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+1840,P00920,John Hunter,1990-11-08,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1841,P00921,Austin White,1947-03-22,M,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1842,P00921,Laura Ramirez,1947-03-22,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1843,P00922,Misty Smith,2008-08-04,F,Queimaduras Graves,2018-01-01,2020-09-27,False
+1844,P00922,Elizabeth Garner,2008-08-04,F,Meningite e Encefalite,2020-09-28,,True
+1845,P00923,Terrence Cox,2012-05-31,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+1846,P00923,Brian Smith,2012-05-31,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1847,P00924,Alexander Bell,1960-08-27,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+1848,P00924,Dr. Timothy Hart,1960-08-27,M,Colecistite e Cálculos Biliares,2020-09-28,,True
+1849,P00925,Trevor Mercado,1945-07-15,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1850,P00925,Marc Bailey,1945-07-15,F,Sepse/Infecção Generalizada,2020-09-28,,True
+1851,P00926,Todd Huang,1965-08-10,F,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1852,P00926,Ian Case,1965-08-10,F,Embolia Pulmonar,2020-09-28,,True
+1853,P00927,Roger Jones,1989-06-26,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1854,P00927,William Kelly,1989-06-26,M,Queimaduras Graves,2020-09-28,,True
+1855,P00928,Amanda Blankenship,2022-12-31,M,Embolia Pulmonar,2018-01-01,2020-09-27,False
+1856,P00928,Lauren Martinez,2022-12-31,M,Queimaduras Graves,2020-09-28,,True
+1857,P00929,Jason Burns,1945-11-26,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1858,P00929,Nicole Cox,1945-11-26,F,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1859,P00930,Abigail Mclaughlin,1940-11-07,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1860,P00930,Maria Sweeney,1940-11-07,M,Traumatismo Craniano,2020-09-28,,True
+1861,P00931,Danielle Nelson,2011-08-14,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+1862,P00931,Marissa Ortiz,2011-08-14,M,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1863,P00932,Rhonda West,1935-09-01,M,Osteomielite,2018-01-01,2020-09-27,False
+1864,P00932,Amanda Gomez,1935-09-01,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1865,P00933,Amber Luna,1947-04-12,F,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1866,P00933,Joseph Summers,1947-04-12,F,Embolia Pulmonar,2020-09-28,,True
+1867,P00934,Jeremy Evans,1958-06-12,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1868,P00934,Dr. Tracy Evans,1958-06-12,M,Pneumonia,2020-09-28,,True
+1869,P00935,Wanda Tyler,1946-07-28,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1870,P00935,Andrew Thomas,1946-07-28,F,Insuficiência Renal Aguda,2020-09-28,,True
+1871,P00936,Evan Gray,1999-06-15,M,Diverticulite,2018-01-01,2020-09-27,False
+1872,P00936,Andrew Fowler,1999-06-15,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+1873,P00937,Michael Barrett,1938-10-08,F,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+1874,P00937,Kayla Yang,1938-10-08,F,Insuficiência Renal Aguda,2020-09-28,,True
+1875,P00938,Tammy Murphy,1956-09-28,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1876,P00938,Jason Burns,1956-09-28,M,Meningite e Encefalite,2020-09-28,,True
+1877,P00939,Howard Chambers,1964-09-08,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1878,P00939,Michael Caldwell,1964-09-08,F,Queimaduras Graves,2020-09-28,,True
+1879,P00940,Kevin Williams,2002-10-30,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1880,P00940,Shawn Wilson,2002-10-30,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1881,P00941,Ann Gregory,1953-11-06,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1882,P00941,Mark Ferguson,1953-11-06,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+1883,P00942,Matthew Harmon,1945-07-17,M,Gastroenterite com desidratação grave,2018-01-01,2020-09-27,False
+1884,P00942,Lindsey Garcia,1945-07-17,M,Traumatismo Craniano,2020-09-28,,True
+1885,P00943,Joyce Griffith,1957-05-17,F,Queimaduras Graves,2018-01-01,2020-09-27,False
+1886,P00943,Andrea Cross,1957-05-17,F,Queimaduras Graves,2020-09-28,,True
+1887,P00944,Isaiah Miles,1946-12-18,M,Pneumonia,2018-01-01,2020-09-27,False
+1888,P00944,Sarah Newman,1946-12-18,M,Asma Grave,2020-09-28,,True
+1889,P00945,Mr. Samuel White,1947-04-04,M,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1890,P00945,Lisa Bennett,1947-04-04,M,Sepse/Infecção Generalizada,2020-09-28,,True
+1891,P00946,Michael Morgan,1975-10-09,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+1892,P00946,Helen Gross,1975-10-09,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1893,P00947,Donna Duarte,1953-10-13,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1894,P00947,Kimberly Roberts,1953-10-13,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1895,P00948,Stephanie Walker,1937-03-07,M,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1896,P00948,Robert Walsh,1937-03-07,M,Insuficiência Cardíaca Congestiva,2020-09-28,,True
+1897,P00949,Jonathan Scott,1989-09-16,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1898,P00949,Megan Howell,1989-09-16,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1899,P00950,Diane Lewis,1941-06-14,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1900,P00950,Alice Vasquez,1941-06-14,F,Embolia Pulmonar,2020-09-28,,True
+1901,P00951,Jonathan Roth,1954-09-09,F,Osteomielite,2018-01-01,2020-09-27,False
+1902,P00951,Andrew Garner,1954-09-09,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+1903,P00952,Michael Peterson,2004-08-03,M,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1904,P00952,Robert Kelley,2004-08-03,M,Pneumonia,2020-09-28,,True
+1905,P00953,Keith King,1984-09-20,M,Apendicite Aguda,2018-01-01,2020-09-27,False
+1906,P00953,Jesse Robles,1984-09-20,M,Apendicite Aguda,2020-09-28,,True
+1907,P00954,Abigail Morris,2012-04-18,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1908,P00954,Tracey Schmidt,2012-04-18,F,Asma Grave,2020-09-28,,True
+1909,P00955,Ariel Tate,1939-02-01,M,Diverticulite,2018-01-01,2020-09-27,False
+1910,P00955,Tammy Wood,1939-02-01,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+1911,P00956,Colleen Reed,1995-11-22,F,Sepse/Infecção Generalizada,2018-01-01,2020-09-27,False
+1912,P00956,Eddie Davis,1995-11-22,F,Acidentes de Trânsito - Politrauma,2020-09-28,,True
+1913,P00957,Sue Barnes,2009-07-29,M,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1914,P00957,James Cruz,2009-07-29,M,Diverticulite,2020-09-28,,True
+1915,P00958,Dawn Cardenas,1951-09-07,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1916,P00958,Michael James,1951-09-07,F,Arritmias Cardíacas,2020-09-28,,True
+1917,P00959,Frank Santiago,2016-12-27,F,Osteomielite,2018-01-01,2020-09-27,False
+1918,P00959,Mary Evans,2016-12-27,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1919,P00960,Krista Harrison,1994-02-20,M,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1920,P00960,Lisa Zimmerman,1994-02-20,M,Traumatismo Craniano,2020-09-28,,True
+1921,P00961,Brandon Hall,1961-09-10,M,Diverticulite,2018-01-01,2020-09-27,False
+1922,P00961,Thomas Welch,1961-09-10,M,Pancreatite Aguda,2020-09-28,,True
+1923,P00962,Andrea Miller,1948-02-29,F,Doença Pulmonar Obstrutiva Crônica (DPOC),2018-01-01,2020-09-27,False
+1924,P00962,Collin Williams,1948-02-29,F,Diverticulite,2020-09-28,,True
+1925,P00963,Amanda James,2005-07-06,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1926,P00963,Samantha Garcia,2005-07-06,F,Trombose Venosa Profunda,2020-09-28,,True
+1927,P00964,Laurie Coleman,1935-04-01,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1928,P00964,James Kerr,1935-04-01,M,Sepse/Infecção Generalizada,2020-09-28,,True
+1929,P00965,Francis Olson,2020-06-28,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1930,P00965,Jeffrey Hudson,2020-06-28,F,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1931,P00966,Jacob Reeves,2011-08-22,F,Pancreatite Aguda,2018-01-01,2020-09-27,False
+1932,P00966,Valerie Miller,2011-08-22,F,Colecistite e Cálculos Biliares,2020-09-28,,True
+1933,P00967,Linda Hull,1996-03-17,F,Pneumonia,2018-01-01,2020-09-27,False
+1934,P00967,Melanie Owens,1996-03-17,F,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+1935,P00968,Cathy Hunt,2005-04-03,M,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1936,P00968,Karen Mack,2005-04-03,M,Queimaduras Graves,2020-09-28,,True
+1937,P00969,Kimberly Johnson,1949-10-24,M,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1938,P00969,Anthony Harper,1949-10-24,M,Câncer - Quimioterapia/Complicações,2020-09-28,,True
+1939,P00970,Michelle Byrd,2013-12-22,M,Meningite e Encefalite,2018-01-01,2020-09-27,False
+1940,P00970,Kimberly Cox,2013-12-22,M,Diverticulite,2020-09-28,,True
+1941,P00971,Sarah Navarro,1969-06-23,F,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+1942,P00971,Mrs. Kimberly Levine,1969-06-23,F,Queimaduras Graves,2020-09-28,,True
+1943,P00972,Derek Joseph,1984-06-15,M,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1944,P00972,Mary Watson,1984-06-15,M,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1945,P00973,Annette Jones,1989-07-07,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1946,P00973,Lisa May,1989-07-07,M,Complicações no Parto e Pós-parto,2020-09-28,,True
+1947,P00974,Keith Delgado,1981-12-14,F,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1948,P00974,Randy Estes,1981-12-14,F,Pancreatite Aguda,2020-09-28,,True
+1949,P00975,Michael Payne,2010-05-02,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1950,P00975,Lisa Lang,2010-05-02,M,Osteomielite,2020-09-28,,True
+1951,P00976,Samantha Baker,2007-08-27,M,Queimaduras Graves,2018-01-01,2020-09-27,False
+1952,P00976,Susan Howard,2007-08-27,M,Trombose Venosa Profunda,2020-09-28,,True
+1953,P00977,Jeffery Tran Jr.,1967-07-02,F,Diabetes Mellitus com cetoacidose,2018-01-01,2020-09-27,False
+1954,P00977,Abigail Morrow,1967-07-02,F,Pneumonia,2020-09-28,,True
+1955,P00978,Laurie Wells,2015-05-27,F,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1956,P00978,John Gardner,2015-05-27,F,Fraturas e Traumas Ortopédicos,2020-09-28,,True
+1957,P00979,Jason Lee,1980-01-08,M,Acidente Vascular Cerebral (AVC),2018-01-01,2020-09-27,False
+1958,P00979,Samuel Weeks,1980-01-08,M,Doença Pulmonar Obstrutiva Crônica (DPOC),2020-09-28,,True
+1959,P00980,Billy Burnett,1995-01-26,F,Insuficiência Cardíaca Congestiva,2018-01-01,2020-09-27,False
+1960,P00980,Evelyn Jefferson,1995-01-26,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
+1961,P00981,Lynn Williams,2004-07-21,M,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1962,P00981,Joseph Vance,2004-07-21,M,COVID-19 e Síndromes Respiratórias Agudas Graves,2020-09-28,,True
+1963,P00982,Lynn Gibson,1942-12-22,F,Apendicite Aguda,2018-01-01,2020-09-27,False
+1964,P00982,John Hill,1942-12-22,F,Acidente Vascular Cerebral (AVC),2020-09-28,,True
+1965,P00983,William Landry,1952-03-09,F,Cirrose Hepática e suas complicações,2018-01-01,2020-09-27,False
+1966,P00983,Jose Flores,1952-03-09,F,Gastroenterite com desidratação grave,2020-09-28,,True
+1967,P00984,Linda Flores,2023-07-01,M,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2018-01-01,2020-09-27,False
+1968,P00984,Katherine Anderson,2023-07-01,M,Arritmias Cardíacas,2020-09-28,,True
+1969,P00985,Emily Tucker,2004-07-06,F,Doenças Autoimunes em crise,2018-01-01,2020-09-27,False
+1970,P00985,Troy Williams,2004-07-06,F,Traumatismo Craniano,2020-09-28,,True
+1971,P00986,Elaine Dawson,1992-05-15,F,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1972,P00986,Mary Jenkins,1992-05-15,F,Asma Grave,2020-09-28,,True
+1973,P00987,Regina Nixon,1953-07-11,M,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1974,P00987,William Nelson,1953-07-11,M,Gastroenterite com desidratação grave,2020-09-28,,True
+1975,P00988,Derek James,1978-05-23,M,Infarto Agudo do Miocárdio,2018-01-01,2020-09-27,False
+1976,P00988,Kenneth Mcgee,1978-05-23,M,Pancreatite Aguda,2020-09-28,,True
+1977,P00989,John Gilbert,1976-03-24,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1978,P00989,Gabriela Thompson,1976-03-24,F,Diverticulite,2020-09-28,,True
+1979,P00990,Kelly Williams,2010-10-28,F,Diverticulite,2018-01-01,2020-09-27,False
+1980,P00990,Miss Kimberly Hood,2010-10-28,F,Complicações no Parto e Pós-parto,2020-09-28,,True
+1981,P00991,Laurie Espinoza,1941-02-10,F,Arritmias Cardíacas,2018-01-01,2020-09-27,False
+1982,P00991,Heather Rush,1941-02-10,F,Diabetes Mellitus com cetoacidose,2020-09-28,,True
+1983,P00992,Crystal Larson,1986-07-31,F,Trombose Venosa Profunda,2018-01-01,2020-09-27,False
+1984,P00992,Cynthia Young,1986-07-31,F,Diverticulite,2020-09-28,,True
+1985,P00993,Thomas Young Jr.,1987-06-04,M,Traumatismo Craniano,2018-01-01,2020-09-27,False
+1986,P00993,Arthur Clark,1987-06-04,M,Insuficiência Renal Aguda,2020-09-28,,True
+1987,P00994,Justin Yang,1948-08-13,M,Pneumonia,2018-01-01,2020-09-27,False
+1988,P00994,Susan Goodwin,1948-08-13,M,Infarto Agudo do Miocárdio,2020-09-28,,True
+1989,P00995,Jesus Craig,2007-04-25,M,Colecistite e Cálculos Biliares,2018-01-01,2020-09-27,False
+1990,P00995,Molly Moore,2007-04-25,M,Sepse/Infecção Generalizada,2020-09-28,,True
+1991,P00996,Brent Hampton,2006-07-29,M,Complicações no Parto e Pós-parto,2018-01-01,2020-09-27,False
+1992,P00996,Leah Thompson,2006-07-29,M,Arritmias Cardíacas,2020-09-28,,True
+1993,P00997,Brittany Rodriguez,1966-04-09,F,Fraturas e Traumas Ortopédicos,2018-01-01,2020-09-27,False
+1994,P00997,Isaac Lee,1966-04-09,F,Apendicite Aguda,2020-09-28,,True
+1995,P00998,Jennifer Waller,1974-10-31,F,Hemorragia Digestiva,2018-01-01,2020-09-27,False
+1996,P00998,Debra Chambers,1974-10-31,F,Apendicite Aguda,2020-09-28,,True
+1997,P00999,Keith Jenkins,2011-09-12,F,Diverticulite,2018-01-01,2020-09-27,False
+1998,P00999,Meredith Thompson,2011-09-12,F,Osteomielite,2020-09-28,,True
+1999,P01000,Tyler Johnson,1942-08-04,F,Pneumonia,2018-01-01,2020-09-27,False
+2000,P01000,Ruth Potts,1942-08-04,F,"Transtornos Mentais Agudos (crise psicótica, depressão grave)",2020-09-28,,True
