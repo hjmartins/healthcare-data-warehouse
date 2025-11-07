@@ -1,67 +1,70 @@
-# -------------------------------
-# Configurações
-# -------------------------------
-$POSTGRES_CONTAINER = "dw_saude_postgres"
-$POSTGRES_USER = "admin"
-$POSTGRES_PASSWORD = "Strong_Password123!"
-$POSTGRES_DB = "dw_saude"
-$LOCAL_SQL_PATH = "C:\Users\hjmar\Documents\Vscode\healthcare-data-warehouse\sql"
-$LOCAL_DATA_PATH = "C:\Users\hjmar\Documents\Vscode\healthcare-data-warehouse\data"
+# =================
+# DATABASE CONFIGURATION
+# =================
 
-# -------------------------------
-# 1️⃣ Subir Docker Postgres
-# -------------------------------
-Write-Host "Subindo container Docker do Postgres..."
-docker-compose up -d
+$DB_NAME = "healthcare_db"
+$DB_USER = "admin"
+$DB_HOST = "localhost"
+$DB_PORT = "5432"
+$CONTAINER = "postgres_db"
 
-# Aguardar o container iniciar
-Start-Sleep -Seconds 10
+# =================
+# PATHS
+# =================
 
-# -------------------------------
-# 2️⃣ Gerar dados fictícios
-# -------------------------------
-Write-Host "Gerando dados fictícios..."
-python etl/gen_data.py
+$sql_create_stg = "../sql/create_stg_table.sql"
+$project_root = Split-Path -Parent $MyInvocation.MyCommand.Definition
+$python_script = Join-Path $project_root "etl\carregar_csv_to_stg.py"
 
-# -------------------------------
-# 3️⃣ Criar tabelas DW
-# -------------------------------
-Write-Host "Criando tabelas DW..."
-docker exec -i $POSTGRES_CONTAINER psql -U $POSTGRES_USER -d $POSTGRES_DB -f "/sql/01_ddl_create_tables.sql"
-
-# -------------------------------
-# 4️⃣ Carregar CSVs para Staging
-# -------------------------------
-Write-Host "Carregando CSVs para Staging..."
-
-$csv_files = @(
-    @{table="stg_paciente"; file="pacientes.csv"},
-    @{table="stg_hospital"; file="hospitais.csv"},
-    @{table="stg_diagnostico"; file="diagnosticos.csv"},
-    @{table="stg_internacao"; file="internacoes.csv"}
+# Lista de scripts SQL a executar em ordem
+$sql_scripts = @(
+    "../sql/load_dim_diagnostico.sql",
+    "../sql/load_dim_tempo.sql",
+    "../sql/load_fact_internacao.sql",
+    "../sql/load_merge_hospital.sql",
+    "../sql/load_merge_paciente.sql"
 )
 
-foreach ($item in $csv_files) {
-    $table = $item.table
-    $file = $item.file
-    Write-Host "Carregando $file → $table"
-    docker exec -i $POSTGRES_CONTAINER psql -U $POSTGRES_USER -d $POSTGRES_DB -c "\copy $table FROM '/data/$file' CSV HEADER;"
+# =================
+# EXECUÇÃO sql e py
+# =================
+
+Write-Host "====================================" -ForegroundColor DarkYellow
+Write-Host "Executando o script create_stg_table.sql"
+
+#docker exec -i $CONTAINER psql -h $DB_HOST -p $DB_PORT -U $DB_USER -d $DB_NAME -f /$sql_create_stg
+
+#if ($LASTEXITCODE -ne 0) {
+#    Write-Host "Erro ao criar tabelas de staging!" -ForegroundColor Red
+#    exit 1
+#}
+
+Write-Host "====================================" -ForegroundColor DarkYellow
+Write-Host "Executando o script carregar_csv_to_stg.py"
+
+python $python_script
+
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "Erro ao carregar CSV para STG!" -ForegroundColor Red
+    exit 1
 }
 
-# -------------------------------
-# 5️⃣ Executar ETL
-# -------------------------------
-Write-Host "Executando ETL..."
-$etl_scripts = @(
-    "merge_paciente.sql",
-    "merge_hospital.sql",
-    "load_dim_diagnostico.sql",
-    "load_fact_internacao.sql"
-)
+# =================
+#  rodar os SQLs parra dwh
+# =================
+foreach ($sql_file in $sql_scripts) {
+    $filename = Split-Path $sql_file -Leaf
+    Write-Host "====================================" -ForegroundColor DarkYellow
+    Write-Host "Executando o script $filename"
 
-foreach ($script in $etl_scripts) {
-    Write-Host "Rodando $script"
-    docker exec -i $POSTGRES_CONTAINER psql -U $POSTGRES_USER -d $POSTGRES_DB -f "/sql/$script"
+    docker exec -i $CONTAINER psql -h $DB_HOST -p $DB_PORT -U $DB_USER -d $DB_NAME -f /$sql_file
+
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "Erro ao executar $filename!" -ForegroundColor Red
+        exit 1
+    }
 }
 
-Write-Host "🎉 Primeira execução completa! DW pronto para uso."
+Write-Host "====================================" -ForegroundColor Green
+Write-Host "ETL concluído com sucesso!"
+Write-Host "====================================" -ForegroundColor Green
