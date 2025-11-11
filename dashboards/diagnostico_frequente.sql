@@ -1,13 +1,13 @@
-SET search_path TO dwh, public;
+CREATE OR REPLACE VIEW dwh.diagnostico_frequente AS
 SELECT
     t.year,
     t.month,
     d.descricao AS diagnostico,
     COUNT(*) AS total
-FROM fact_internacao f
-JOIN dim_tempo t
-    ON t.dim_tempo_key = f.sk_tempo_admissao
-JOIN dim_diagnostico d
-    ON d.sk_diagnostico = f.sk_diagnostico
+FROM dwh.fact_internacao f
+JOIN dwh.dim_tempo t
+    ON t.dim_tempo_key = f.dim_tempo_key_admissao
+JOIN dwh.dim_diagnostico d
+    ON d.dim_diagnostico_key = f.dim_diagnostico_key
 GROUP BY t.year, t.month, d.descricao
 ORDER BY t.year, t.month, total DESC;
