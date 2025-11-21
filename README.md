@@ -21,9 +21,6 @@ This project implements a modern data warehouse architecture focused on healthca
 - Analytics Platform: [Analytics Platform]
 - Security Framework: [Security Framework]
 
-## Getting Started
-
-Documentation for setup and usage coming soon.
 
 ## Project Organization Structure
 [estrutura.txt](docs/estrutura.txt)
